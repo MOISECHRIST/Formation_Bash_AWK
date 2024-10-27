@@ -301,7 +301,7 @@ heure=$(date +%Hh%M)
 awk -v var_awk1="$jour" -v var_awk2="$heure" 'BEGIN{print "Aujourdhui cest "var_awk1" et il est "var_awk2}'
 ```
 
-# 13- Bonus : Suppression des doublons avec AWK
+## 13- Bonus : Suppression des doublons avec AWK
 
 Dans cette section nous allons creer deux scripts :
 - Le premier permettra de verifier s'il y a des doublons dans un fichiers (Ligne dupliquées)
