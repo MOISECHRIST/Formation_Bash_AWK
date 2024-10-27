@@ -158,29 +158,85 @@ Exemple :
  $ ifconfig | awk 'match($0, /[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}/) {print substr($0, RSTART, RLENGTH)}'
 ```
 
-## 7- Les boucles for, while et do ... while
+## 7- Les variables dans AWK
 
-Comme dans tous les langages de programmation, on retrouve les boucles comme la boucle `for` et `while`. Nous allons dans cette section présenter les syntaxes de ces différentes structures itératives.
-
-### 7.1- Boucle For
-
-
-### 7.2- Boucle While
-
-
-### 7.3- Boucle do ... while
-
-
-## 8- Les variables et les tableaux dans AWK
-
-- Les variables dans AWK ne sont déclaré au moment de leur utilisation
+Les variables dans AWK ne sont déclaré au moment de leur utilisation
 
 Exemple : 
 ```bash
 $ awk 'BEGIN{var=10; print var*10}'
 ```
 
-- Les tableaux sont des variables contenant une serie de valeurs et chaque valeur est accéssible par in index qui peut etre numérique ou pas.
+## 8- Les boucles for, while et do ... while
+
+Comme dans tous les langages de programmation, on retrouve les boucles comme la boucle `for` et `while`. Nous allons dans cette section présenter les syntaxes de ces différentes structures itératives.
+
+### 8.1- Boucle For
+
+La boucle `for` a deux syntaxe :
+- Premiere syntaxe :
+
+```bash
+for(<initialisation>;<condtion arret>;<incrementation>){
+    <liste instructions> 
+}
+```
+
+Exemple :
+
+```bash
+awk 'BEGIN{var=2; for(i=0;i<=10;i++){print i"*"var"="i*var}}'
+```
+
+- Seconde syntaxe :
+```bash
+for(<variable> in <liste>){
+    <liste instructions> 
+}
+```
+
+Exemple :
+
+```bash
+#Script pour afficher la distribution des districts de santé par région au Cameroun
+tail -n+2  Bash\ Linux/io_script/region_ds.csv | awk -F "," 'BEGIN{printt "Nombre de district par region"}
+{regions[$2]+=1} END{for(region in regions){print region","regions[region]}}'
+```
+
+### 8.2- Boucle While
+
+Dans AWK la syntaxe de `while` est la suivante : 
+```bash
+while(<condition>){
+    <liste instrictions>
+}
+```
+Exemple :
+
+```bash
+awk 'BEGIN{i=0; var=2; while(i<=10){print i"*"var"="i*var; i++}}'
+```
+
+### 8.3- Boucle do ... while
+
+la syntaxe de `do ... while` est la suivante : 
+```bash
+do{
+    <liste instructions>
+}
+while(<condition>)
+```
+Exemple :
+
+```bash
+awk 'BEGIN{i=0; var=2; do{print i"*"var"="i*var; i++}while(i<=10)}'
+```
+
+**NB :** Dans les boucles on peut appliquer les actions `break` et `continue` comme dans les autres langages de programmation.
+
+## 9- les tableaux dans AWK
+
+Les tableaux sont des variables contenant une serie de valeurs et chaque valeur est accéssible par in index qui peut etre numérique ou pas.
 
 Exemple :
 ```bash
@@ -191,6 +247,21 @@ $ tail -n+2 data/ObesityDataSet.csv | awk -F "," '
 #age moyen suivant le sexe
 $ tail -n+2 data/ObesityDataSet.csv | awk -F "," 'BEGIN{print "Sexe : mean-age (count)"}
 {age[$1]+=$2; nb[$1]+=1} END{for(idx in age){print idx" : "age[idx]/nb[idx]" ("nb[idx]")"}}'
+```
+
+## 10- La fonction split()
+
+La fonction `split()` permet comme son nom l'indique, de splitter les élement suivant un délimiteur et stocker les resultats dans un tableau.\
+La syntaxe est la suivante :
+
+```bash
+split(<element a splitter>, <tableau resultat>, <delimiteur>)
+```
+
+Exemple :
+
+```bash
+awk 'BEGIN{split("MEKA aime programmer en AWK", res, " "); for(idx in res) print res[idx]}'
 ```
 
 ------------------------------
