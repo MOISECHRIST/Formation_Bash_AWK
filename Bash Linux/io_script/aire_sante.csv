@@ -1,0 +1,1800 @@
+code_air,nom_air,code_district
+1,Atta,1
+2,Bandam,1
+3,Bankim rural,1
+4,Bankim urbain,1
+5,Nyamboya,1
+6,Somie,1
+7,Songkolong,1
+8,Allat,2
+9,Boumdo,2
+10,Djem,2
+11,Fada,2
+12,Hore Taram,2
+13,Mayo Darle CMA,2
+14,Mayo Darle CSPC,2
+15,Mayo Djinga,2
+16,Mayo Kelele,2
+17,Mbamti Katarko,2
+18,Ndiwawa,2
+19,Ribao,2
+20,Sambo Labo,2
+21,Taram Yabam,2
+22,Tiket,2
+23,Batoua-godole,3
+24,Djohong,3
+25,Kombo - Laka,3
+26,Ngam,3
+27,Ngaoui,3
+28,Yamba,3
+29,Yarmbang,3
+30,Babongo,4
+31,Badjer,4
+32,Beka,4
+33,Bindiba,4
+34,Boula,4
+35,Dir CMA,4
+36,Gandinang,4
+37,Gunbela,4
+38,Kaka,4
+39,Kalaldi,4
+40,Lokoti,4
+41,Mbarang,4
+42,Meidougou,4
+43,Meiganga prive,4
+44,Meiganga public,4
+45,Bagodo,5
+46,Beka Gotto,5
+47,Danfili,5
+48,Ngaoundal Catholique,5
+49,Ngaoundal CMA,5
+50,Pangar,5
+51,Beka-Hossere,6
+52,Belel,6
+53,Dang,6
+54,Dibi,6
+55,Likok,6
+56,Martap,6
+57,Mbang-Mboum,6
+58,Mbe,6
+59,Ngan-ha,6
+60,Nyambaka,6
+61,Sassa-Mbersi,6
+62,Tourningal,6
+63,Wack,6
+64,Wassande,6
+65,Bamyanga,7
+66,Boumdjere,7
+67,Ndelbe,7
+68,Sabongari,7
+69,Allat Mengack,8
+70,Djombi,8
+71,Mbakaou,8
+72,Meidjamba,8
+73,Minim,8
+74,Ngaoubela,8
+75,Tibati CMA,8
+76,Tibati CSI,8
+77,Tongo,8
+78,Alme,9
+79,Dodeo,9
+80,Doualayel,9
+81,Gadjiwan,9
+82,Galim Tignere,9
+83,Garbaya Yelwa,9
+84,Kontcha,9
+85,Libong,9
+86,Mayo Baleo,9
+87,Tchabal Mbabo,9
+88,Tignere,9
+89,Wogomdou,9
+90,Abem,10
+91,Akak,10
+92,Akonolinga urbain,10
+93,Djoudjoua,10
+94,Edjom,10
+95,Ekoudou,10
+96,Emvane - So,10
+97,Endom,10
+98,Mengang,10
+99,Mengueme-si,10
+100,Yeme-yeme,10
+101,Zalom,10
+102,Elat minkom,11
+103,Mimbang,11
+104,Ngat,11
+105,Nkolessong,11
+106,Olanguina,11
+107,Ayos,12
+108,Efoufoup,12
+109,Kobdombo,12
+110,Mang,12
+111,Mbaka,12
+112,Mboke,12
+113,Nganga,12
+114,Nkoambang,12
+115,Nyamvoudou,12
+116,Salla,12
+117,Yenassa,12
+118,Assala,13
+119,Bafia i,13
+120,Bafia ii,13
+121,Bafia rural,13
+122,Balamba,13
+123,Baliama,13
+124,Bayomen,13
+125,Bokito,13
+126,Bongo,13
+127,Deuk,13
+128,Donenkeng,13
+129,Gbwah,13
+130,Goufan,13
+131,Kiki,13
+132,Mouko,13
+133,Ombessa,13
+134,Roum,13
+135,Tsekane,13
+136,Yangben,13
+137,Akok-ndoe,14
+138,Biscuiterie,14
+139,Biyem - Assi 1,14
+140,Biyem - Assi 2,14
+141,Etoug - Ebe,14
+142,Melen elig-effa,14
+143,Mendong,14
+144,Mvog betsi,14
+145,Nkolbikok 1,14
+146,Nkolbikok 2,14
+147,Simbok,14
+148,Briqueterie,15
+149,Carriere,15
+150,Cite verte,15
+151,Ekoudou,15
+152,Messa,15
+153,Mokolo,15
+154,Nkomkana,15
+155,Tsinga,15
+156,Tsinga oliga,15
+157,Elig essono,16
+158,Emana,16
+159,Essos,16
+160,Etoa - Meki,16
+161,Mballa 2,16
+162,Mballa 5,16
+163,Mvog ada,16
+164,Nfandena,16
+165,Nkolmesseng,16
+166,Nkolondom,16
+167,Nlongkak,16
+168,Tsinga village,16
+169,Djounyat,17
+170,Leka,17
+171,Ngoksa,17
+172,Nkolelouga,17
+173,Afanoyoa,18
+174,Ahala,18
+175,Efoulan,18
+176,Ngoa ekelle,18
+177,Nsimeyong,18
+178,Obili,18
+179,Elig - Mfomo,19
+180,Kokodo,19
+181,Nkengue,19
+182,Bidjocka,20
+183,Bondjock,20
+184,Eseka,20
+185,Ilanga,20
+186,Likongue,20
+187,Makak,20
+188,Messondo,20
+189,Mom,20
+190,Song bayang,20
+191,Song-badjeck,20
+192,Songbong,20
+193,Afanloum,21
+194,Edzendouan,21
+195,Esse ville,21
+196,Mvengessaboutou,21
+197,Ngondimbele,21
+198,Ngoungoumdu,21
+199,Ongandi,21
+200,Evodoula,22
+201,Kalngaha,22
+202,Nkolassa,22
+203,Nloudou,22
+204,Akoeman,23
+205,Angonfeme,23
+206,Assie,23
+207,Ekoumeyek,23
+208,Mbalmayo 1,23
+209,Mbalmayo 2,23
+210,Mbyo ngallan,23
+211,Mengueme,23
+212,Metet,23
+213,Minlaba,23
+214,Ngomedzap,23
+215,Nkolmeyang,23
+216,Nkolnyama,23
+217,Nkolya,23
+218,Olama,23
+219,Onanambessa,23
+220,Ossoessam,23
+221,Sep,23
+222,Zoatoupsi,23
+223,Edoumdane,24
+224,Lembe yezoum,24
+225,Mbandjock,24
+226,Mebolo,24
+227,Mvebekon,24
+228,Ndjore,24
+229,Ndoumba,24
+230,Nkoteng 1,24
+231,Nkoteng 2,24
+232,Nyassi,24
+233,Zoa,24
+234,Binguela,25
+235,Ebeba,25
+236,Mbankomo,25
+237,Mefomo,25
+238,Ntouessong,25
+239,Atega,26
+240,Dzeng,26
+241,Essazok,26
+242,Komassi,26
+243,Meven,26
+244,Mfou,26
+245,Ndangueng,26
+246,Nkilzok,26
+247,Nkoabang,26
+248,Nkongoa,26
+249,Nsimalen,26
+250,Omvan,26
+251,Eyenmeyong,27
+252,Monatele,27
+253,Mvomekak,27
+254,Ngomo,27
+255,Nkog bong,27
+256,Nkolkosse,27
+257,Nlong bon 1,27
+258,Tala,27
+259,Bibey,28
+260,Bissaga,28
+261,Emtse,28
+262,Mbargue,28
+263,Metep,28
+264,Minta,28
+265,Mvomzock,28
+266,Nanga eboko,28
+267,Ndjassi,28
+268,Ndjombe,28
+269,Ngoulmekong,28
+270,Nguen,28
+271,Nsem,28
+272,Wall,28
+273,Boutourou,29
+274,Makenene,29
+275,Ndikinimeki,29
+276,Ndokowanen,29
+277,Nitoukou,29
+278,Nyokon,29
+279,Bot makak,30
+280,Boumnyebel,30
+281,Dibang,30
+282,Hegba,30
+283,Mandoumba,30
+284,Matomb,30
+285,Mbanda,30
+286,Mbebe kikot,30
+287,Mintaba,30
+288,Ndongo,30
+289,Ngog-mapubi,30
+290,Nguibassal,30
+291,Ntouleng,30
+292,Sombo,30
+293,Akono,31
+294,Bikok,31
+295,Bikop,31
+296,Evindissi,31
+297,Ngoumou,31
+298,Nkong abok,31
+299,Offounou,31
+300,Ekorozock,32
+301,Etetak,32
+302,Nkolbisson,32
+303,Nkolnkoumou,32
+304,Nkolso'o,32
+305,Nnom-nnam,32
+306,Oyom-abang,32
+307,Ekounou,33
+308,Kondengui,33
+309,Meyo,33
+310,Mimboman 1,33
+311,Mimboman 2,33
+312,Nkolndongo 1,33
+313,Nkolndongo 2,33
+314,Nkomo,33
+315,Odza,33
+316,Biakoa,34
+317,Mbangassina,34
+318,Ndimi,34
+319,Ndjame,34
+320,Ngoro,34
+321,Nguila,34
+322,Ntui,34
+323,Nvoundou,34
+324,Nyamanga 2,34
+325,Nyamoko,34
+326,Talba,34
+327,Batchenga,35
+328,Efok,35
+329,Ekabita - mendoum,35
+330,Endinding,35
+331,Essong,35
+332,Etoud - Ayos,35
+333,Minkama,35
+334,Nkolguem,35
+335,Nkolmekok,35
+336,Nkometou,35
+337,Obala,35
+338,Yemessoa,35
+339,Ebougsi,36
+340,Ekekam 3,36
+341,Elig eyeng,36
+342,Lobo,36
+343,Mva'a,36
+344,Mvoua,36
+345,Ngoya,36
+346,Nkolpoblo,36
+347,Nlong,36
+348,Okola,36
+349,Voua 2,36
+350,Lebamzip,37
+351,Lepopomo,37
+352,Ndong elang,37
+353,Nkolang,37
+354,Nkolbobo,37
+355,Nkolmgbana,37
+356,Nkolvak,37
+357,Nlong onambele,37
+358,Ondondo,37
+359,Saa,37
+360,Ebang,38
+361,Koulou,38
+362,Ngali 2,38
+363,Ntouessong,38
+364,Soa,38
+365,Ting melen,38
+366,Doume,39
+367,Linte,39
+368,Makouri,39
+369,Mankim,39
+370,Nditam,39
+371,Ndjole,39
+372,Ngambe-tikar,39
+373,Yoko,39
+374,Abong Mbang Nord,40
+375,Abong Mbang Sud,40
+376,Angossas,40
+377,Ankoung,40
+378,Atok,40
+379,Mbomba,40
+380,Mindourou,40
+381,Nkouak,40
+382,Bandongoue,41
+383,Batouri Centre 1,41
+384,Batouri Centre 2,41
+385,Batouri Nord 1,41
+386,Batouri Nord 2,41
+387,Batouri Ouest 1,41
+388,Batouri Ouest 2,41
+389,Batouri Sud,41
+390,Belita 2,41
+391,Dem 2 Kambele,41
+392,Gadji,41
+393,Gounte,41
+394,Kamba Mieri,41
+395,Mbendissola,41
+396,Mbounou,41
+397,Ndjassi,41
+398,Nguelebok,41
+399,Tapare,41
+400,Bazzama,42
+401,Belabo,42
+402,Bombi,42
+403,Deng Deng,42
+404,Diang,42
+405,Enia,42
+406,Grand Mboulaye,42
+407,Mandjou,42
+408,Mbethen,42
+409,Mokolo 1,42
+410,Mokolo 4,42
+411,Moundi,42
+412,Ndemba 1,42
+413,Ndouan,42
+414,Nkolbikon,42
+415,Radio,42
+416,Tigaza,42
+417,Betar├® Oya,43
+418,Dang Patou,43
+419,Mbitom,43
+420,Ngoura,43
+421,Tongo Gadima,43
+422,Bayong,44
+423,Dimako Nord,44
+424,Dimako Sud,44
+425,Doume 1,44
+426,Doume 2,44
+427,Goumbegeron,44
+428,Motcheboum,44
+429,Ngandame,44
+430,Ngomdouma,44
+431,Nkoum,44
+432,Petit Pol,44
+433,Seguelendom,44
+434,Bindimba,45
+435,Gado Badjere,45
+436,Garoua Boulai,45
+437,Nandoungue,45
+438,Bedobo,46
+439,Bengue Tiko,46
+440,Boubara,46
+441,Gbiti,46
+442,Kette,46
+443,Lala,46
+444,Ouli,46
+445,Oundjiki,46
+446,Timangolo,46
+447,Lomie,47
+448,Messok,47
+449,Ngoyla,47
+450,Zoulabot 1,47
+451,Atsieck,48
+452,Bimba,48
+453,Djampiel,48
+454,Kagnol 1,48
+455,Lila,48
+456,Mbang,48
+457,Bidjombo,49
+458,Dimpam,49
+459,Doumo Mama,49
+460,Messamena,49
+461,Ngoulemakong,49
+462,Somalomo,49
+463,Mikel,50
+464,Moloundou,50
+465,Ndongo/Adjala,50
+466,Nguilili,50
+467,Salapoumbe,50
+468,Kentzou,51
+469,Lolo,51
+470,Mbondoua,51
+471,Mindourou,51
+472,Ndel├®l├®,51
+473,Ngotto,51
+474,Pana,51
+475,Azomekout,52
+476,Bika,52
+477,Ngoap,52
+478,Nguelemendouka HD,52
+479,Gari Gombo,53
+480,Gribi,53
+481,Massea,53
+482,Moampack,53
+483,Momdjepom,53
+484,Ngatto,53
+485,Ngolla 35,53
+486,Yokadouma Nord,53
+487,Yokadouma Sud,53
+488,Balaza,54
+489,Balda,54
+490,Bogo,54
+491,Borai,54
+492,Guinggley,54
+493,Madaka,54
+494,Sedek,54
+495,Boukoula,55
+496,Bourha,55
+497,Gamboura,55
+498,Guili 1,55
+499,Guili 2,55
+500,Mbola,55
+501,Oudda,55
+502,Tchevi,55
+503,Teleki,55
+504,Dagai,56
+505,Gawel,56
+506,Gazawa,56
+507,Loulou,56
+508,Massakal,56
+509,Ndoukoula,56
+510,Zongoya,56
+511,Afade,57
+512,Amdjagara,57
+513,Gana,57
+514,Goulfey,57
+515,Hilele,57
+516,Maltam,57
+517,Mara,57
+518,Bagana,58
+519,Djougoumta,58
+520,Dompya,58
+521,Gobo,58
+522,Guibi,58
+523,Nouldaina,58
+524,Polgue,58
+525,Barlang,59
+526,Bizili,59
+527,Dongrosse,59
+528,Doubane,59
+529,Dziguilao 1,59
+530,Dziguilao 2,59
+531,Golonghini,59
+532,Goundaye,59
+533,Guego,59
+534,Guereme,59
+535,Guidiguis,59
+536,Kabla,59
+537,Kofide,59
+538,Kourbi,59
+539,Touloum,59
+540,Bering,60
+541,Gamdougoum,60
+542,Gawar,60
+543,Hina,60
+544,Ounangare Dimeo,60
+545,Tchamahe,60
+546,Zidim,60
+547,Zouvoul,60
+548,Bipaing,61
+549,Boboyo,61
+550,Djidoma,61
+551,Doumrou,61
+552,Gaban,61
+553,Gadas,61
+554,Garey,61
+555,Going,61
+556,Kaele,61
+557,Lara,61
+558,Mapoussere,61
+559,Midjivin,61
+560,Mindjil,61
+561,Moubare,61
+562,Datcheka,62
+563,Doukoula 1,62
+564,Doukoula 2,62
+565,Gane,62
+566,Going -Tala,62
+567,Guissia,62
+568,Kada,62
+569,Mogom,62
+570,Oulargo,62
+571,Tchatibali,62
+572,Werfeo,62
+573,Zouaye,62
+574,Amchide,63
+575,Gujimdele,63
+576,Kerawa,63
+577,Kolofata,63
+578,Kouyape,63
+579,Limani,63
+580,Tolkomari,63
+581,Amchidire,64
+582,Dabanga,64
+583,Hile Haoussa,64
+584,Holoum,64
+585,Kalakafra,64
+586,Madana,64
+587,Madiako,64
+588,Ndjagare,64
+589,Ngodeni,64
+590,Pagui,64
+591,Parpar,64
+592,Zimado,64
+593,Zina,64
+594,Assighassia,65
+595,Djingliya,65
+596,Gaboua,65
+597,Goldavi,65
+598,Gouzda Vreket,65
+599,Gouzda Wayam,65
+600,Hirche,65
+601,Koza 1,65
+602,Koza 2,65
+603,Moskota,65
+604,Mozogo,65
+605,M'tskar,65
+606,Ndouvgui Kilda,65
+607,Nghethewe,65
+608,Ouzal,65
+609,Zheleved,65
+610,Bargaram,66
+611,Blangoua,66
+612,Blaram,66
+613,Darak,66
+614,Hile Alifa,66
+615,Kobro,66
+616,Kofia,66
+617,Mada,66
+618,Naga,66
+619,Tchika,66
+620,Guirvidig,67
+621,Maga,67
+622,Mazera,67
+623,Pouss,67
+624,Tekele,67
+625,Amchilga,68
+626,Biamo,68
+627,Bodo,68
+628,Bomboyo,68
+629,Fotokol,68
+630,Makary,68
+631,Ngouma,68
+632,Sagme,68
+633,Woulky,68
+634,Beguele,69
+635,Domayo 2,69
+636,Domayo Djarma,69
+637,Domayo Kamanjo Igama,69
+638,Katoual,69
+639,Makabaye,69
+640,Meskmanjo ine,69
+641,Ngassa,69
+642,Ourotchede,69
+643,Palar,69
+644,Salak,69
+645,Dogba,70
+646,Doualare,70
+647,Founangue,70
+648,Kossewa,70
+649,Lopere,70
+650,Papata,70
+651,Zokok,70
+652,Birio,71
+653,Dargala,71
+654,Djarengol Kodek,71
+655,Djoulgouf,71
+656,Dougoi,71
+657,Kaewo,71
+658,Kengola,71
+659,Kodek,71
+660,Ouro Zangui,71
+661,Yoldeo,71
+662,Doulek,72
+663,Doumrou,72
+664,Douvangar,72
+665,Godola,72
+666,Kalliao,72
+667,Magawa,72
+668,Marnguirdla,72
+669,Meftek Ouazzang,72
+670,Meri,72
+671,Djappai,73
+672,Doyang,73
+673,Loubour,73
+674,Maoudine,73
+675,Matfai,73
+676,Mendeo,73
+677,Mindif,73
+678,Modjombodi,73
+679,Mogom,73
+680,Yakang,73
+681,Houpou,74
+682,Kila,74
+683,Kortchi,74
+684,Kossehone,74
+685,Mogode,74
+686,Rhumsiki,74
+687,Rhumzou,74
+688,Sir,74
+689,Gadala,75
+690,Goudour,75
+691,Magoumaz,75
+692,Mandaka Chechem,75
+693,Minawao,75
+694,Mokolo 1,75
+695,Mokolo 2,75
+696,Mokong,75
+697,Ouro Tada,75
+698,Toufou,75
+699,Tourou,75
+700,Vouzod,75
+701,Zamay,75
+702,Ziling,75
+703,Aissa Harde,76
+704,Bounderi,76
+705,Djaounde,76
+706,Godigong,76
+707,Kossa,76
+708,Kourgui,76
+709,Magdeme,76
+710,Massare,76
+711,Meh├®,76
+712,Mem├®,76
+713,Mora,76
+714,Oudjilla,76
+715,Podoko Nord,76
+716,Tala Mokolo,76
+717,Waza,76
+718,Daram,77
+719,Goudoum,77
+720,Guirling,77
+721,Horlong,77
+722,Kolara,77
+723,Korre,77
+724,Manga,77
+725,Moulvoudaye,77
+726,Damai,78
+727,Foulou,78
+728,Mouda,78
+729,Moutourwa,78
+730,Titing,78
+731,Alagarno,79
+732,Djaoude,79
+733,Djoutabembal,79
+734,Doubbel,79
+735,Fadare,79
+736,Malam Petel,79
+737,Pette,79
+738,Madakonai,80
+739,Medere,80
+740,Midre,80
+741,Ndimche,80
+742,Roua,80
+743,Soulede,80
+744,Kotraba,81
+745,Mada-Kolkoch,81
+746,Makalingai,81
+747,Mambeza,81
+748,Mangave - Dalil,81
+749,Mokio,81
+750,Ouldeme,81
+751,Palbara,81
+752,Tokomber├® 1,81
+753,Tokomber├® 2,81
+754,Warba,81
+755,Begue Palam,82
+756,Djafga,82
+757,Doreissou,82
+758,Gabaraye,82
+759,Kai Kai,82
+760,Kartoua,82
+761,Kouromokdaye,82
+762,Madalam,82
+763,Vele,82
+764,Widigue,82
+765,Bougaye,83
+766,Dana,83
+767,Djongdong,83
+768,Gobio,83
+769,Hougno,83
+770,Kalfou,83
+771,Mass Gaya,83
+772,Vada Toukou,83
+773,Viri,83
+774,Vounaloum,83
+775,Yagoua,83
+776,Bessounkang,84
+777,Mangamba,84
+778,Miang,84
+779,Nono,84
+780,Souza,84
+781,Bangue,85
+782,Bonamoussadi,85
+783,Kotto,85
+784,Logbessou 1,85
+785,Logpom Makepe,85
+786,Makepe Missoke,85
+787,Massoumbou,85
+788,Bobongo,86
+789,Boko Plage,86
+790,Boko Plateau,86
+791,Cite Berge,86
+792,Mbanga Pongo,86
+793,Newton Airport,86
+794,Ngodi Bakoko,86
+795,Bilingue,87
+796,Bojongo,87
+797,Bonamikano,87
+798,Bonassama,87
+799,Bonendale,87
+800,Djebale,87
+801,Grand Hangar,87
+802,Mambanda,87
+803,Ngwele,87
+804,Nkomba,87
+805,Sodiko,87
+806,Cite des Palmiers,88
+807,Dikahe,88
+808,Genie Madiba,88
+809,Logbessou 2,88
+810,Maneke,88
+811,Ndogbong-CP,88
+812,Ndoghem 2,88
+813,Nyalla-CP,88
+814,Sodikombo,88
+815,Akwa 1,89
+816,Akwa 2,89
+817,Akwa 3,89
+818,Akwa Nord,89
+819,Bepanda omnisports,89
+820,Bepanda TSF,89
+821,Bessengue,89
+822,Bonanjo,89
+823,Cite Sic,89
+824,Deido,89
+825,Grand Moulin,89
+826,Ndogbong,89
+827,Bekoko,90
+828,Bomomo,90
+829,Dibombari,90
+830,Nkapa,90
+831,Yabea,90
+832,Beon,91
+833,Dehane,91
+834,Delangue,91
+835,Dizangue,91
+836,Elogbele,91
+837,Logbadjeck,91
+838,Makondo,91
+839,Malimba,91
+840,Mouanko,91
+841,Ngonga,91
+842,Plateau administratif,91
+843,Bwang,92
+844,Japoma,92
+845,Kambo,92
+846,Mbanga,92
+847,Nkembe,92
+848,Nyalla,92
+849,Yambong,92
+850,Yassa,92
+851,Kongui,93
+852,Logbaba Centre,93
+853,Logbaba Plateau,93
+854,Mboppi,93
+855,Ndogbati,93
+856,Ndogpassi 1,93
+857,Ndogpassi 2,93
+858,Ndogsimbi,93
+859,Ndokoti,93
+860,St Micheal,93
+861,Babong,94
+862,Loum 1,94
+863,Loum 2,94
+864,Loum 3,94
+865,Loum chantiers,94
+866,Kolla,95
+867,Manjo 1,95
+868,Manjo 2,95
+869,Moumekeng,95
+870,Njoumbeng,95
+871,N'lohe,95
+872,Cap Cameroum,96
+873,Kombo Moukoko,96
+874,Manoka Centre,96
+875,Sio Sio,96
+876,Toube,96
+877,Boubou,97
+878,Dikouma,97
+879,EEC,97
+880,Kotto,97
+881,Matouke,97
+882,Mission Cath,97
+883,Mombo,97
+884,Mouyouka,97
+885,Bare,98
+886,Barehock,98
+887,Essekou,98
+888,Lelem,98
+889,Mbokambo,98
+890,Mbouroukou,98
+891,Melong 2,98
+892,Melong centre,98
+893,Ndokou,98
+894,Ndom Bakem,98
+895,Bodi,99
+896,Ibong,99
+897,Kelleng,99
+898,Likounmbiam,99
+899,Ndogbatolgue,99
+900,Ndom Centre,99
+901,Nsongmbongo,99
+902,Nyanon,99
+903,Omeng,99
+904,Pockmahonda,99
+905,Camp Yabassi,100
+906,Makea,100
+907,Mbam Ewondo,100
+908,New-Bell Bamilek├®,100
+909,Ngangue,100
+910,Nkolmintag,100
+911,Nkololoun,100
+912,Nkongmondo,100
+913,Sebenjongo,100
+914,Youpwe,100
+915,Bikat,101
+916,Botbea,101
+917,Mgog Mbog,101
+918,Ngambe centre,101
+919,Saha,101
+920,Song Mbengue,101
+921,Tomel,101
+922,Bouba,102
+923,Njombe 1,102
+924,Njombe 2,102
+925,Penja 1,102
+926,Penja 2,102
+927,Dissouck,103
+928,Mabombe,103
+929,Moya,103
+930,Ndobian,103
+931,Ndoctiba,103
+932,Nkondjock Centre,103
+933,Sohock,103
+934,Bakwat,104
+935,Baressoumtou,104
+936,Bonangoh,104
+937,Ebone,104
+938,Eboum Mbeng,104
+939,Ekangte,104
+940,Ekel Mbeng,104
+941,Ekol Mbeng,104
+942,Nkoundou,104
+943,Nlonko'o,104
+944,Barcelone,105
+945,Bonadiwoto,105
+946,Diboum 2,105
+947,Ndogpassi 3 Centre,105
+948,Ndogpassi 3 ZR,105
+949,Oyack 1,105
+950,Oyack 3,105
+951,Soboum,105
+952,Makob,106
+953,Nkonga,106
+954,Pouma,106
+955,Saint Andre,106
+956,Song Simouth,106
+957,Benga,107
+958,Bonepoupa,107
+959,Longtoka,107
+960,Solle,107
+961,Tonde,107
+962,Yabassi,107
+963,Yingui,107
+964,Adoumri,108
+965,Bibemi,108
+966,Bide,108
+967,Dengui,108
+968,Djaloumi,108
+969,Houla,108
+970,Lam,108
+971,Mandjola,108
+972,Mayo lope,108
+973,Mbella,108
+974,Ndiam badi,108
+975,Padarme,108
+976,Badadji,109
+977,Batao,109
+978,Bidzar,109
+979,Biou,109
+980,Djougui,109
+981,Figuil,109
+982,Karewa,109
+983,Kong kong,109
+984,Lam,109
+985,Pelgue,109
+986,Bangli,110
+987,Djamboutou,110
+988,Garoua winde,110
+989,Kollere,110
+990,Nakong,110
+991,Ouro kanadi,110
+992,Ouro malam amadou,110
+993,Souari,110
+994,Foulbere,111
+995,Lainde,111
+996,Nassarao,111
+997,Poumpoumre,111
+998,Roumde adjia,111
+999,Takasco,111
+1000,Barndake,112
+1001,Bascheo,112
+1002,Dembo,112
+1003,Demsa,112
+1004,Djatoumi,112
+1005,Gaschiga,112
+1006,Hamakoussou,112
+1007,Kobossi,112
+1008,Pomla manga,112
+1009,Rognou,112
+1010,Babouri,113
+1011,Bissoli,113
+1012,Djabi,113
+1013,Sorawel,113
+1014,Sossilim,113
+1015,Tchontchi,113
+1016,Balga,114
+1017,Douroum,114
+1018,Gaval,114
+1019,Gorom,114
+1020,Guider,114
+1021,Larbak,114
+1022,Libe,114
+1023,Lougguere,114
+1024,Matafal,114
+1025,Morija,114
+1026,Mousgoy,114
+1027,Sainte martine,114
+1028,Soukoundou,114
+1029,Badankali,115
+1030,Bakona,115
+1031,Bame,115
+1032,Bocki,115
+1033,Dingale,115
+1034,Djipporde,115
+1035,Gouna,115
+1036,Gounougou,115
+1037,Lamoudam,115
+1038,Na'ari,115
+1039,Ouro kessoum,115
+1040,Tongo,115
+1041,Bossoum,116
+1042,Doumo,116
+1043,Dourbeye,116
+1044,Guirviza,116
+1045,Mandama,116
+1046,Mayo oulo,116
+1047,Mouroum,116
+1048,Pologozom,116
+1049,Wafo,116
+1050,Babla,117
+1051,Badang,117
+1052,Boumedje,117
+1053,Djalingo,117
+1054,Djefatou,117
+1055,Lainde tchitta,117
+1056,Mbaga,117
+1057,Ndjola,117
+1058,Ngong,117
+1059,Sanguere ngal,117
+1060,Tcheboa,117
+1061,Touroua,117
+1062,Badjouma centre,118
+1063,Badjouma radier,118
+1064,Bajengo,118
+1065,Banaye,118
+1066,Be,118
+1067,Boula ibib,118
+1068,Dola,118
+1069,Holma,118
+1070,Langui,118
+1071,Pitoa,118
+1072,Balkossa,119
+1073,Beka,119
+1074,Bimba,119
+1075,Boumba,119
+1076,Djoumte,119
+1077,Fignole,119
+1078,Poli,119
+1079,Tapare,119
+1080,Tchamba,119
+1081,Voko,119
+1082,Wangai,119
+1083,Alpha,120
+1084,Baikwa,120
+1085,Bere,120
+1086,Djamare,120
+1087,Djouroum,120
+1088,Dobinga,120
+1089,Koinderi,120
+1090,Kong rong,120
+1091,Mombore,120
+1092,Rey bouba,120
+1093,Sinassi,120
+1094,Somessi,120
+1095,Djaba,121
+1096,Gamba,121
+1097,Gor,121
+1098,Hormbali,121
+1099,Kali,121
+1100,Madingring,121
+1101,Sakdje,121
+1102,Sorombeo,121
+1103,Tchollire,121
+1104,Djom,122
+1105,Dompta,122
+1106,Mafare,122
+1107,Mbai-mboum,122
+1108,Mbaka,122
+1109,Mbang-rey,122
+1110,Mbeing,122
+1111,Ngai-lara,122
+1112,Touboro,122
+1113,Vogzom,122
+1114,Yanli,122
+1115,Abongshie,123
+1116,Ako urban,123
+1117,Akwaja,123
+1118,Berabe,123
+1119,Buku,123
+1120,Jevi,123
+1121,Kuta,123
+1122,Akofunguba,124
+1123,Akossia,124
+1124,Buwe - Bukari,124
+1125,Mambu,124
+1126,Manji,124
+1127,Mankanikong,124
+1128,Mankwi,124
+1129,Mbakong,124
+1130,Mforya,124
+1131,Mundum,124
+1132,Nchum,124
+1133,Nsem,124
+1134,Nsoh,124
+1135,Tingoh,124
+1136,Bali catholic,125
+1137,Bali urban,125
+1138,Bawock,125
+1139,Bossa,125
+1140,Gungong,125
+1141,Njenka,125
+1142,Wosing,125
+1143,Akumlam,126
+1144,Alabukam,126
+1145,Alakuma,126
+1146,Alamandom,126
+1147,Atuakom,126
+1148,Azire,126
+1149,Mankon,126
+1150,Mbachogwa,126
+1151,Mendankwe,126
+1152,Mulang,126
+1153,Ndzah,126
+1154,Nkwen Baptist,126
+1155,Nkwen rural,126
+1156,Nkwen urban,126
+1157,Ntambag,126
+1158,Ntamulung,126
+1159,Ntankah,126
+1160,Ashong,127
+1161,Batibo urban,127
+1162,Bifang,127
+1163,Eka,127
+1164,Ewai,127
+1165,Ewoh,127
+1166,Guzang,127
+1167,Gwofon,127
+1168,Kugwe,127
+1169,Kulabei,127
+1170,Larinji,127
+1171,Olorunti,127
+1172,Tiben,127
+1173,Widikum,127
+1174,Baworo,128
+1175,Beba-Batomo,128
+1176,Befang,128
+1177,Benabinge,128
+1178,Benade,128
+1179,Benakuma,128
+1180,Modelle,128
+1181,Okoromanjang,128
+1182,Aduk,129
+1183,Anyajua,129
+1184,Belo,129
+1185,Faunantui,129
+1186,Fundong urban,129
+1187,Kikfuini,129
+1188,Konene,129
+1189,Mbengkas,129
+1190,Mbessa,129
+1191,Mejang,129
+1192,Mentang,129
+1193,Ndawara,129
+1194,Dzeng,130
+1195,Jakiri cma,130
+1196,Jakiri IHC,130
+1197,Kwanso,130
+1198,Lip,130
+1199,Mbah,130
+1200,Mbam,130
+1201,Mbiame,130
+1202,Mbokam,130
+1203,Mbonso,130
+1204,Ngendzen,130
+1205,Ngorin,130
+1206,Nkar,130
+1207,Shisong,130
+1208,Sop,130
+1209,Tatum,130
+1210,Vekovi,130
+1211,Wainamah,130
+1212,Wasi Ber,130
+1213,Wvem,130
+1214,BBH,131
+1215,Buh,131
+1216,Kai,131
+1217,Kikaikom,131
+1218,Kikiakelaki,131
+1219,Kitiwum,131
+1220,Kumbo CMA,131
+1221,Kumbo urban,131
+1222,Kuvlu,131
+1223,Melim,131
+1224,Nkumkov,131
+1225,Abebung,132
+1226,Acha tugi,132
+1227,Acha tugi,132
+1228,Ajei,132
+1229,Andek,132
+1230,Azem,132
+1231,Bome,132
+1232,Etwii,132
+1233,Kob,132
+1234,Mbengeghang,132
+1235,Mbengwi urban,132
+1236,Munam,132
+1237,Ngyen mbo,132
+1238,Njah etu,132
+1239,Njindom,132
+1240,Nkon mengom,132
+1241,Teze,132
+1242,Tinechung,132
+1243,Baba 1,133
+1244,Babessi,133
+1245,Babungo,133
+1246,Bafanji,133
+1247,Balikumbat,133
+1248,Bamali,133
+1249,Bambalang,133
+1250,Bamessing,133
+1251,Bamunka rural,133
+1252,Bamunka urban,133
+1253,Bamunkumbit,133
+1254,Bangolan,133
+1255,Mbangsalle,133
+1256,Mbissa,133
+1257,Mighang,133
+1258,kakar,134
+1259,Luh,134
+1260,Mangu,134
+1261,Mbawrong,134
+1262,Mbiyeh,134
+1263,Mbongong,134
+1264,Ndu urban,134
+1265,Ntumbaw,134
+1266,Sop,134
+1267,Akanunku,135
+1268,Konda,135
+1269,Kuttin,135
+1270,Njikwa,135
+1271,Oshie,135
+1272,Bih,136
+1273,Binka,136
+1274,Binshua,136
+1275,Bua-bua,136
+1276,Dumbu,136
+1277,Fonfuka,136
+1278,Kom,136
+1279,Lus,136
+1280,Mbot,136
+1281,Misaje,136
+1282,Njap,136
+1283,Nkambe urban,136
+1284,Tabenken,136
+1285,Wat,136
+1286,Gom,137
+1287,Lih,137
+1288,Ngu,137
+1289,Ntem,137
+1290,Ntong,137
+1291,Nwa,137
+1292,Yang,137
+1293,Djottin,138
+1294,Elak,138
+1295,Ibal,138
+1296,Ichim,138
+1297,Jikijem,138
+1298,Kevu,138
+1299,Lassin,138
+1300,Mboh,138
+1301,Ngeptang,138
+1302,Nkor,138
+1303,Simonkoh,138
+1304,Akum,139
+1305,Awing,139
+1306,Baligham,139
+1307,Buchi,139
+1308,Mbeme,139
+1309,Mbu,139
+1310,Menka,139
+1311,Ndepang,139
+1312,Ntoh,139
+1313,Pinyin,139
+1314,Santa urban,139
+1315,Baforkum,140
+1316,Bambili,140
+1317,Bambui,140
+1318,Finge,140
+1319,Kedjom keku,140
+1320,Kedjom ketinguh,140
+1321,Kwighe,140
+1322,Lih,140
+1323,Ntehmbang,140
+1324,Sabga,140
+1325,Tikebeng,140
+1326,Abar,141
+1327,Bafmen,141
+1328,Bu,141
+1329,Esu,141
+1330,Furuawa,141
+1331,Furubana,141
+1332,Ise,141
+1333,Kpep,141
+1334,Kumfutu,141
+1335,Munkep,141
+1336,St Martin,141
+1337,Weh,141
+1338,Weh azoh,141
+1339,Wum urban,141
+1340,Yemge,141
+1341,Zhoa,141
+1342,Babouate,142
+1343,Baboutcha-Fongam,142
+1344,Baboutcheu-Ngaleu,142
+1345,Bafang-Chefferie,142
+1346,Bakou,142
+1347,Bana,142
+1348,Manila,142
+1349,Mouankeu,142
+1350,Ndokovi,142
+1351,Baham,143
+1352,Bahiala Cheffou,143
+1353,Bametchoue Fodom,143
+1354,Bangou-Carrefour,143
+1355,Bangou-Ville,143
+1356,Bapa Bametchetcha,143
+1357,Batie,143
+1358,Kassim,143
+1359,Ngougoua,143
+1360,Baboum,144
+1361,Bahouan I,144
+1362,Bahouan II,144
+1363,Balatsit,144
+1364,Bameka,144
+1365,Bamendjou,144
+1366,Bangam,144
+1367,Batchoum,144
+1368,Ngouang,144
+1369,Babouantou,145
+1370,Bandja-Chefferie,145
+1371,Bandja-Ville,145
+1372,Baving,145
+1373,Fondanti,145
+1374,Fondjomekwet,145
+1375,Fotouni,145
+1376,Batoufam,146
+1377,Bayagam,146
+1378,Demdemg,146
+1379,Dja,146
+1380,Djiomghouo,146
+1381,Famla II,146
+1382,Ha'a,146
+1383,Mbouo,146
+1384,Pete,146
+1385,Semto,146
+1386,Tesse,146
+1387,Tsela,146
+1388,Yom,146
+1389,Badounga,147
+1390,Bakong,147
+1391,Balengou,147
+1392,Bamena,147
+1393,Bangang-Fokam,147
+1394,Bangangte,147
+1395,Bangoua,147
+1396,Bangoulap,147
+1397,Bantoum I,147
+1398,Bassamba,147
+1399,Batchingou,147
+1400,Bazou,147
+1401,Feugnoun,147
+1402,Ndipta III,147
+1403,Projet Route du Noun,147
+1404,Tonga,147
+1405,Toukop,147
+1406,Bangambi,148
+1407,Bangourain,148
+1408,Kouhouat,148
+1409,Koumengba,148
+1410,Kourom,148
+1411,Koutoukpi,148
+1412,Baladjeutsa,149
+1413,Baleghang,149
+1414,Balena,149
+1415,Bambi,149
+1416,Bamougong,149
+1417,Bangang Chefferie Est,149
+1418,Bangang Chefferie Ouest,149
+1419,Batcham Chefferie,149
+1420,Batcham Fiela,149
+1421,Batcham Ville,149
+1422,Batsintchuet,149
+1423,Nzindong,149
+1424,Baleveng,150
+1425,Balevoni,150
+1426,Doumbouo,150
+1427,Fiala Foreke,150
+1428,Fokoue,150
+1429,Fometa,150
+1430,Fomopea,150
+1431,Fonakeukeu,150
+1432,Fondonera,150
+1433,Fongo-Ndeng,150
+1434,Fontsa Touala,150
+1435,Fotsetsa,150
+1436,Latchouet,150
+1437,Lepoh,150
+1438,Lingang-Foto,150
+1439,Maka,150
+1440,Mbeng,150
+1441,Mboua,150
+1442,Mekouale,150
+1443,Ndoh-Djutsitsa,150
+1444,Nkeuli,150
+1445,siteu,150
+1446,Bafole,151
+1447,Foumban Nord,151
+1448,Foumban Ouest,151
+1449,Foumban Sud,151
+1450,Foyet,151
+1451,Kouchankap,151
+1452,Kouffen,151
+1453,Koundja,151
+1454,Koupa Kagnam,151
+1455,Koupa Matapit,151
+1456,Koutie,151
+1457,Mambain,151
+1458,Mancha,151
+1459,Mapouoche,151
+1460,Mataket,151
+1461,Matoumbain,151
+1462,Mayap,151
+1463,Njimom,151
+1464,Njindare,151
+1465,Njisse,151
+1466,Baigom,152
+1467,Baigom II,152
+1468,Fosset,152
+1469,Foumbot I,152
+1470,Foumbot II,152
+1471,Foumbot III,152
+1472,Foumbot IV,152
+1473,Foumbot V,152
+1474,Maka II,152
+1475,Momo,152
+1476,Njone,152
+1477,Bagam,153
+1478,Bagam Est,153
+1479,Bagam Nord,153
+1480,Bamendjing,153
+1481,Bamenyam,153
+1482,Bati,153
+1483,Galim,153
+1484,Galim-Est,153
+1485,Menfoung,153
+1486,Balembo,154
+1487,Bamengui,154
+1488,Bangui-Chari,154
+1489,Banwa,154
+1490,Bapoungue,154
+1491,Bayon,154
+1492,Kekem,154
+1493,Mboebo,154
+1494,Chanas,155
+1495,Kouoptamo,155
+1496,Koupara,155
+1497,Ngbetsoueen,155
+1498,Njidoun,155
+1499,Njingoumbe,155
+1500,Njintapon,155
+1501,Fejemkwet,156
+1502,Koula,156
+1503,Magba,156
+1504,Mahoua,156
+1505,Makoutam,156
+1506,Makpa,156
+1507,Malantouen,156
+1508,Malien,156
+1509,Manda,156
+1510,Manguiembou,156
+1511,Manjouom,156
+1512,Manki II,156
+1513,Mantoum,156
+1514,Mapou Njipoute,156
+1515,Matoupou,156
+1516,Matta,156
+1517,Mayo,156
+1518,Ngounso,156
+1519,Magna,157
+1520,Makom,157
+1521,Malanden,157
+1522,Mamognan,157
+1523,Mankouombi,157
+1524,Mansouen,157
+1525,Massangam,157
+1526,Matoufa,157
+1527,Mayakoue,157
+1528,Babete,158
+1529,Bafounda,158
+1530,Balatchi,158
+1531,Balepo,158
+1532,Bamelo,158
+1533,Bamendjinda,158
+1534,Bamenkombo,158
+1535,Bamesso,158
+1536,Mbouda Nord,158
+1537,Mbouda Sud,158
+1538,Mbouda-Ouest,158
+1539,Toumaka,158
+1540,Badiembou,159
+1541,Bapi,159
+1542,Batoukop,159
+1543,Baye,159
+1544,Djeleng,159
+1545,Djietcha,159
+1546,Djunang,159
+1547,Famla,159
+1548,Famtchouet,159
+1549,Kamkop,159
+1550,Keuleu,159
+1551,King Place,159
+1552,Kongso,159
+1553,Kouogouo,159
+1554,Lafe,159
+1555,Tchada,159
+1556,Tocket,159
+1557,Tyo,159
+1558,Wouong,159
+1559,Yagou,159
+1560,Badjeghang,160
+1561,Balefock,160
+1562,Balessing,160
+1563,Baloum,160
+1564,Bambi,160
+1565,Bamendou II,160
+1566,Bamendou Leo,160
+1567,Bamendou-Chefferie,160
+1568,Baneghang,160
+1569,Bani-Baloum,160
+1570,Bansoa Chefferie,160
+1571,Batotcha,160
+1572,Centre urbain,160
+1573,Bale,161
+1574,Fombap,161
+1575,Ngah-Kou,161
+1576,Ngwatta,161
+1577,Santchou,161
+1578,Akwa,162
+1579,Akwaya,162
+1580,Amassi,162
+1581,Bagundu,162
+1582,Bassa,162
+1583,Idabato,163
+1584,Isangele,163
+1585,Kombo Abedimo,163
+1586,Kombo Itindi,163
+1587,Bangem,164
+1588,Ebamut,164
+1589,Ekajoh Bajoh,164
+1590,Muabi,164
+1591,Muambong,164
+1592,Nkack,164
+1593,Bokwaongo,165
+1594,Bova,165
+1595,Buea Road,165
+1596,Buea Town,165
+1597,Molyko,165
+1598,Muea,165
+1599,Tole,165
+1600,Bafaka,166
+1601,Bamusso,166
+1602,Bekora,166
+1603,Bekumu,166
+1604,Bisoro,166
+1605,Ekondo Titi,166
+1606,Illor,166
+1607,Kumbe Balue,166
+1608,Lobe,166
+1609,Afap,167
+1610,Ekok,167
+1611,Eyumojock,167
+1612,Kembong,167
+1613,Ogurang,167
+1614,Azi,168
+1615,Essoh Attah,168
+1616,Fojumetaw,168
+1617,Fotabong,168
+1618,Mbetta,168
+1619,Menji,168
+1620,Njungo,168
+1621,Takwai,168
+1622,Ibemi,169
+1623,Ikiliwindi,169
+1624,Konye,169
+1625,Kurume,169
+1626,Matoh,169
+1627,Mbakwa Supe,169
+1628,Nyandong,169
+1629,Wone,169
+1630,Banga Bakundu,170
+1631,Big Bekondo,170
+1632,Big Ngbandi,170
+1633,Dikome Balue,170
+1634,Ekombe Bonji,170
+1635,Fiango,170
+1636,Kumba Mbeng,170
+1637,Kumba Pulletin,170
+1638,Kumba Town,170
+1639,Massaka,170
+1640,Mukonje,170
+1641,Ntam,170
+1642,Batoke,171
+1643,Bojongo,171
+1644,Bota,171
+1645,Idenua,171
+1646,Mabeta,171
+1647,Moliwe,171
+1648,Sea Port,171
+1649,Zone 2,171
+1650,Bachuo Akagbe,172
+1651,Kajifu,172
+1652,Kendem,172
+1653,Mamfe,172
+1654,Tali,172
+1655,Boa Balondo,173
+1656,Bokosso,173
+1657,Kombone,173
+1658,Kotto Barombi,173
+1659,Mbonge,173
+1660,Lipenja,174
+1661,Madie Ngollo,174
+1662,Mundemba,174
+1663,Pamol Ndian,174
+1664,Bafia,175
+1665,Ekona,175
+1666,Malende,175
+1667,Meanja,175
+1668,Muyuka,175
+1669,Ayong,176
+1670,Bakogo,176
+1671,Elumba Mbo,176
+1672,Eyang Atemako,176
+1673,Manyemen,176
+1674,Nguti 1,176
+1675,Nguti 2,176
+1676,Ntale,176
+1677,Holforth,177
+1678,Kange,177
+1679,Likomba,177
+1680,Misselele,177
+1681,Mondoni,177
+1682,Mudeka,177
+1683,Mutengene,177
+1684,Tiko Town,177
+1685,Baseng,178
+1686,Ebonji,178
+1687,Edibenjock,178
+1688,Ndibenjock,178
+1689,Ndom,178
+1690,Nyassosso,178
+1691,Tombel Town,178
+1692,Bamumbu,179
+1693,Bechati,179
+1694,Fotang,179
+1695,Abang - Minko,180
+1696,Ambam,180
+1697,Evouzok,180
+1698,Kye - Ossi,180
+1699,Ma'an,180
+1700,Mbam Essa Obam,180
+1701,Mebang,180
+1702,Mefoup,180
+1703,Mendjimi,180
+1704,Messama 1,180
+1705,Meyo Centre,180
+1706,Mfoua,180
+1707,Minkan- Mengale,180
+1708,Ndjazeng,180
+1709,Nong,180
+1710,Nsessoum,180
+1711,Nyabessang,180
+1712,Alati,181
+1713,Djoum,181
+1714,Melen-Zaman,181
+1715,Mfem,181
+1716,Mintom,181
+1717,Mveng,181
+1718,Nkolenyeng,181
+1719,Oveng Fang,181
+1720,Abang,182
+1721,Biba I,182
+1722,Bissam,182
+1723,Bitsogman,182
+1724,Biwong Bane,182
+1725,Dispensaire Urbain,182
+1726,Doum,182
+1727,Efoulan,182
+1728,Enongal,182
+1729,Ma'amezam,182
+1730,Mefo,182
+1731,Melangue 1,182
+1732,Mengong,182
+1733,Meyo Ville,182
+1734,Ngoulemakong,182
+1735,Ngoulessaman,182
+1736,Nkoetye,182
+1737,Nnemeyong 2,182
+1738,Soumou,182
+1739,Adjap,183
+1740,Akom II,183
+1741,Bandevouri,183
+1742,Campo,183
+1743,Elog - Batindi,183
+1744,Grand Batanga,183
+1745,Hevecam,183
+1746,Kribi,183
+1747,Londji,183
+1748,Nkollo,183
+1749,Socapalm,183
+1750,Akom Bikoe,184
+1751,Atog Boga,184
+1752,Bipindi,184
+1753,Elon,184
+1754,Lolodorf,184
+1755,Melondo,184
+1756,Mvengue,184
+1757,Ngovayang,184
+1758,Nkoampoer,184
+1759,Bengbis,185
+1760,Ekong,185
+1761,Enyeng,185
+1762,Koum Yetotan,185
+1763,Mbometa,185
+1764,Mekas,185
+1765,Mengon,185
+1766,Messok,185
+1767,Meyomessala,185
+1768,Ngoasse,185
+1769,Nkolenyeng,185
+1770,Olembe,185
+1771,Amvom,186
+1772,Biwong Bulu,186
+1773,Endengue,186
+1774,Koungoulou,186
+1775,Mvangan,186
+1776,Nselang,186
+1777,Mekomengona,187
+1778,Olamze,187
+1779,Akomessing,188
+1780,Akon,188
+1781,Avebe Esse,188
+1782,Elom Yemfek,188
+1783,Meyomadjom,188
+1784,Meyomessi,188
+1785,Mezesse,188
+1786,Nkolnguet,188
+1787,Nkolotou'outou,188
+1788,Olounou,188
+1789,Oveng Yemvak,188
+1790,Ebamina,189
+1791,Ekombite,189
+1792,Fibot,189
+1793,Messam,189
+1794,Mfouladja,189
+1795,Ndele,189
+1796,Nden,189
+1797,Nkolbang,189
+1798,Zoetele,189
+1799,Ekajoh Bajoh,189

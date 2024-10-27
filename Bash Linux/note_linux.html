@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>note_linux</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////home/meka/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.8.13/crossnote/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><html><head><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body></body></html>
+    </head>
+    <body for="html-export" >
+      <div class="crossnote markdown-preview  "  >
+      
+<p><strong>Autor :</strong> <em>MEKA Moise Christian Junior</em><br>
+<strong>Email :</strong> <em><a href="mailto:moisechristianjunior464@gmail.com">moisechristianjunior464@gmail.com</a></em><br>
+<strong>Institution :</strong> <em>National Public Health Laboratory - Cameroon</em></p>
+<hr>
+<h1 id="0-introduction">0. Introduction </h1>
+<ul>
+<li><code>man &lt;command&gt;</code> : pour afficher le manuel de <code>&lt;command&gt;</code></li>
+<li><code>&lt;command&gt; --help</code> : Pour afficher l'aide de <code>&lt;command&gt;</code></li>
+<li><code>&lt;command&gt; -h</code> : Similaire a <code>&lt;command&gt; --help</code></li>
+<li><code>whoami</code> : Pour afficher le nom d'utilisateur</li>
+<li><code>pwd</code> : Pour afficher le chemin vers le dossier courant</li>
+<li><code>sudo su</code> : Se connecter en mode super utilisateur sur son terminal</li>
+<li><code>ifconfig</code> : Pour la configuration reseau</li>
+<li><code>source ~/.bashrc</code> : Pour reinitialiser le terminal</li>
+<li><code>#!/bin/bash</code> : Decorateur pour signaler qu'il s'agit d'un script bash</li>
+<li><code>#!/path/to/prog</code> : Decorateur pour dire que le script est execute par un programme <code>prog</code></li>
+<li><code>whatis [comman]</code> : Description d'une commande en une ligne</li>
+<li><code>du -s dir</code> : Pour afficher la taille du repertoire <code>dir</code>. En absence de <code>-s</code> la commande va afficher de facon recursive les tailles des elements et sous elements de <code>dir</code>. En ajoutant le parametre <code>-h</code> on affiche en format facilement comprehensible par l'homme.</li>
+<li><code>df -h</code> : Affiche l'espace disque utilise, restant et le pourcentage utilisation dans un format facilement comprehensible par l'homme.</li>
+<li>Les commandes <code>htop</code> et <code>top</code> affiche les statistiques d'utilisation des ressources de la machine.</li>
+<li><code>basename /path/to/file</code> retourne le fichier sans son chemin</li>
+<li><code>dirname /path/to/file</code> retourne le chemin vers le dossier contenant le fichier</li>
+</ul>
+<h2 id="01-deplacer-dans-le-terminal">0.1 Deplacer dans le terminal </h2>
+<ul>
+<li><code>cd &lt;path&gt;</code> : pour se deplacer vers <code>path</code></li>
+<li><code>cd ~</code> : pour aller dans le dossier utilisateur</li>
+<li><code>cd /</code> : Pour se deplacer vers la racine</li>
+<li><code>cd</code>: Equivalent de <code>cd ~</code></li>
+<li><code>cd ..</code> : Aller vers le repertoire parent</li>
+<li><code>cd -</code> : Aller vers le repertoire precedent (Dans mes navigations)</li>
+</ul>
+<h2 id="02-lister-les-elements-dun-dossier">0.2 Lister les elements d'un dossier </h2>
+<ul>
+<li><code>ls</code> : Pour lister les elements d'un repertoire</li>
+<li><code>ls -a</code> : Pour tout afficher on peut aussi utiliser <code>la</code></li>
+<li><code>ls -l</code> : Equivalent de <code>ll</code> qui affiche en list</li>
+<li><code>ls -la</code> : Pour afficher tout en list</li>
+<li><code>ls -1</code> : Pour afficher en une ligne</li>
+<li><code>ls -1F</code> : Pour afficher les elements sur une ligne en specifiant s'ils sont des dossiers, fichiers.</li>
+</ul>
+<h2 id="03-supprimer-les-elements">0.3 Supprimer les elements </h2>
+<ul>
+<li><code>rm</code> : supprimer un fichier</li>
+<li><code>rm -r</code> : supprimer un dossier recursivement</li>
+<li><code>rmdir</code> : Supprimer un dossier vide</li>
+<li><code>rmdir -p &lt;path&gt;</code> : pour supprimer un dossier vide et tous ses paraents qui sont aussi vide</li>
+</ul>
+<h2 id="04-creer-de-fichiers-et-dossiers-et-traitement-de-texte">0.4 Creer de fichiers et dossiers et traitement de texte </h2>
+<ul>
+<li><code>mkdir &lt;dir&gt;</code> : Pour creer le dossier <code>dir</code></li>
+<li><code>mkdir -p &lt;a/b/c&gt;</code> : Pour creer successivement <code>a</code>, <code>a/b</code> et <code>a/b/c</code> s'il n'existent pas sans generer d'erreurs</li>
+<li><code>touch &lt;file&gt;</code> : Pour creer le fichier <code>file</code></li>
+<li><code>nano &lt;file&gt;</code> : Pour creer et editer le fichier <code>file</code> avec <strong>nano</strong></li>
+<li><code>gedit &lt;file&gt;</code> : pareil que nano mais avec <strong>gedit</strong></li>
+<li><code>vim &lt;file&gt;</code> : Pareil que nano mais avec <strong>vim</strong></li>
+<li><code>less &lt;file&gt;</code> : pour parcourir le fichier <code>file</code></li>
+<li><code>more &lt;file&gt;</code> : Pareil que less, mais affichage different</li>
+<li><code>cat &lt;file&gt;</code> : Afficher le contenu du fichier <code>file</code></li>
+<li><code>head -nX &lt;file&gt;</code> : Afficher les X premieres lignes du fichier <code>file</code></li>
+<li><code>tail -nX &lt;file&gt;</code> : Afficher les X dernieres lignes du fichier <code>file</code></li>
+<li><code>head -n-X &lt;file&gt;</code> : Afficher tout le fichier <code>file</code> sauf les <code>X</code> dernieres lignes</li>
+<li><code>tail -n+X &lt;file&gt;</code> : Afficher tout le fichier <code>file</code> sauf les <code>X</code> premieres lignes</li>
+<li><code>grep 'pattern' &lt;file&gt;</code> : Rechercher un <code>patern</code> dans un fichier <code>file</code></li>
+<li><code>find &lt;dir&gt; -name 'file pattern'</code> : Pour rechercher tous les fichier dont le patern est <code>file patern</code> se trouvant dans <code>dir</code> et ses sous repertoires</li>
+<li><code>find &lt;dir&gt; -regex 'regular expression'</code> : Pour rechercher un element suivant une expression reguliere</li>
+<li><code>wc file</code> : Pour afficher le nombre de ligne, de mots et de caracteres dans un fichier. On peut utiliser les parametres <code>-c</code>, <code>-m</code>, <code>-l</code> respectivement pour afficher le nomnre de caracteres, mots et lignes dans le fichier.</li>
+<li><code>sed 's/prec/new/g' file</code> : Pour remplacer toutes les occurences de <code>prec</code> par <code>new</code> dans <code>file</code>. On peut ajouter le parametre <code>-i</code> pour persister les modifications dans <code>file</code> ou alors rediriger le resultat vers un nouveau fichier avec <code>&gt;</code>.</li>
+<li><code>sed '/motif/d' file</code> : Pour supprimer toutes les lignes ou on a au moins une occurence du <code>motif</code> dans <code>file</code>.</li>
+<li><code>sed '/cat/!d' story.txt</code> : Va supprimer chaque ligne ne contenant pas <code>cat</code>.</li>
+</ul>
+<h2 id="05-copier-et-deplacer-des-ellements">0.5 Copier et deplacer des ellements </h2>
+<ul>
+<li><code>cp &lt;path1/file&gt; &lt;path2/.&gt;</code> : Pour copier le fichier <code>file</code> de <code>path1</code> et le coller dans <code>path2</code></li>
+<li><code>mv &lt;path1/file&gt; &lt;path2/.&gt;</code> : Pour couper le fichier <code>file</code> de <code>path1</code> et le coller dans <code>path2</code></li>
+<li><code>cp &lt;file1&gt; &lt;file2&gt;</code> : Pour dupliquer le fichier <code>file1</code> en un second fichier <code>file2</code></li>
+<li><code>mv &lt;file1&gt; &lt;file2&gt;</code> : Pour renommer le fichier <code>file1</code> en <code>file2</code></li>
+</ul>
+<h2 id="06-gestion-des-droits-ecriture-lecture-et-execution-sur-les-fichiers">0.6 Gestion des droits (Ecriture, Lecture et execution) sur les fichiers </h2>
+<ol>
+<li><code>chmod 'droit' &lt;file&gt;</code>: Pour changer les droits sur un fichier a un proprietaire, un groupe ou un autre utilisateur</li>
+</ol>
+<p><strong>NB :</strong> : Lorsque vous faite ls -l vous verrez des symboles <code>rwxrw-r--</code> par exemple sur des fichiers.<br>
+Ces symboles se lisent en groupe de 3 et correspondent a r (read), w (write) et x (execute) :</p>
+<ul>
+<li>Le permier groupe de 3 caracteres sont les droits du <strong>proprietaire</strong></li>
+<li>Le second groupe de 3 caracteres sont les droits du <strong>groupe</strong></li>
+<li>Les 3 derniers caracteres sont les droits des <strong>autres utilisateurs</strong><br>
+Lorsque l'on veut par exemple ajouter les drois au proprietaire on fait <code>chmod u+rwx &lt;file&gt;</code> cela ajoutera rwx aux droits du proprietaire sur le fichier.<br>
+Lorsque l'on veut par exemple retirer les drois d'execution au proprietaire on fait <code>chmod u-x &lt;file&gt;</code>.<br>
+On peut remplacer <code>u</code> dans la commande precedente par <code>g</code> pour les droits des groupes ou par <code>a</code> pour les drois de tout le monde.<br>
+Il existe une seconde facon d'ajouter/enlever les droits en utilisant des code binaires\ <br>
+consideron le code binaire a 3 bit suivant :</li>
+<li>000=0 : <code>-rwx</code></li>
+<li>001=1 : <code>+x</code></li>
+<li>010=2 : <code>+w</code></li>
+<li>011=3 : <code>+wr</code></li>
+<li>100=4 : <code>+r</code></li>
+<li>101=5 : <code>+rx</code></li>
+<li>110=6 : <code>+rw</code></li>
+<li>111=7 : <code>+rwx</code><br>
+Donc si on veut ajouter des droits on fera un code a 3 chiffer allant de 0 a 7<br>
+Par exemple <code>chmod 750 &lt;file&gt;</code> sera equivalent a <code>rwxr-x---</code> pour le fichier ou :</li>
+<li><code>7</code> correspond aux droits du proprietaire</li>
+<li><code>5</code> correspond aux droits du groupe</li>
+<li><code>0</code> correspond aux droits des autres</li>
+</ul>
+<ol start="2">
+<li><code>chgrp &lt;group_name&gt; &lt;file|dir&gt;</code> Pour changer le groupe d'un fichier ou d'un dossier</li>
+<li><code>chown &lt;uaser_name&gt; &lt;file|dir&gt;</code> Pour changer l'utilisateur d'un fichier ou un dossier</li>
+</ol>
+<h2 id="07-rediriger-le-resulatat-dune-commande">0.7 Rediriger le resulatat d'une commande </h2>
+<p>La commande <code>[command] &gt; [file]</code> enregistre le resultat d'une commande dans un fichier. Exemple <code>ll my_dir/ &gt; my_dir_content.txt</code> qui va stocker le contenu de <code>my_dir</code> dans le fichier <code>my_dir_content.txt</code>.<br>
+L'inconveniant ici c'est qu'il fait juste un read du fichier et donc n'ajoute pas les resultats a un precedent enregistrement.<br>
+On utilise donc la commande <code>&lt;command&gt; &gt;&gt; &lt;file&gt;</code> pour ajouter du contenu. Par exemple <code>fastqc file.fq &gt;&gt; fastqc.log</code></p>
+<ul>
+<li><code>[command] 1&gt; [file]</code> : Pour rediriger tous les stdout dans un fichier\</li>
+<li><code>[command] 2&gt; [file]</code> : Pour rediriger tous les stderror dans un fichier</li>
+</ul>
+<h2 id="08-combiner-les-commandes">0.8 Combiner les commandes </h2>
+<p>Pour combiner les commandes de sorte a utiliser le resultat de l'une comme entree de l'autre on utilise le pipe <code>|</code> <br>
+<strong>Exemple :</strong> <code>cat file.csv | cut -d, -f1 | sort | uniq</code> pour afficher de maniere unique les elements de la premiere colonne du fichier csv <code>file.csv</code> delimiteur virgule <code>,</code>.<br>
+On voit ici trois nouvelle commande <code>cut</code>, <code>sort</code> et <code>uniq</code>. <br>
+En inspectant les manuels de ces commandes on constate que :</p>
+<ul>
+<li><code>cut</code> : permet de decouper le contenu d'un fichier ou de son entre suivant un delimiteur. Le delimiteur par defaut est la tabulation.<br>
+Le parametre <code>-f</code> ici permet de specifier les colonnes prises en comptes (<code>cut file.csv -d, -f1,5</code> pour selectionner la premiere et la cinquieme colonne).</li>
+<li><code>sort</code> : Permet de trier les element d'une liste (<code>ls -lh | sort -hk 5</code> ou ici j'affiche sous forme de liste avec des valeurs numerique converti<br>
+pour faciliter la lecture humaine avec <code>ls -lh</code> puis je trie les resultats precedent suivent les grandeur numerique humaine <code>-h</code> se trouvant<br>
+dans la 5ieme colonne du precedent resultat <code>k 5</code> avec <code>sort -hk 5</code>)</li>
+<li><code>uniq</code> : Pour afficher les elements de maniere unique. Il possede les parametres tres utiles <code>-c</code> qui compte les sorties et <code>-i</code> pour ignorer la casse.</li>
+</ul>
+<h2 id="09-les-jointure">0.9 Les jointure </h2>
+<p>La commande <code>join</code> permet de faire la jointure entre 2 fichiers.</p>
+<p>La syntaxe est simple <code>join -t'&lt;delimitor&gt;' file1 -1 X1 file2 -2 X2</code> ici on veut joindre deux fichier <code>file1</code> et <code>file2</code> separe par un <code>delimiteur</code> ou les colonnes de jointure sont respectivement <code>X1</code> et <code>X2</code> pour le <code>file1</code> et <code>file2</code>.</p>
+<p><strong>Exemple :</strong></p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token function">join</span> <span class="token parameter variable">-t</span> <span class="token string">','</span> region.csv <span class="token parameter variable">-1</span> <span class="token number">1</span> district_sante.csv <span class="token parameter variable">-2</span> <span class="token number">3</span> <span class="token operator">&gt;</span> region_ds.csv
+</code></pre><p>ici on veut joindre les donnees des regions avec ceux des districts de sante. La colonne de jointure entre region et district est <code>1</code> chez <code>region.csv</code> et <code>3</code> chez <code>district_sante.csv</code> <br>
+Une commande basique de jointure est <code>join file1 file2</code> ici le delimiteur est l'espace et les colonnes de jointures sont <code>1</code> par tout. C'est equivalent a :</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token function">join</span> <span class="token parameter variable">-t</span> <span class="token string">' '</span> file1 <span class="token parameter variable">-1</span> <span class="token number">1</span> file2 <span class="token parameter variable">-2</span> <span class="token number">1</span>
+</code></pre><h2 id="010-entres-et-sorties-dans-le-terminal">0.10 Entres et sorties dans le terminal </h2>
+<ul>
+<li><code>echo 'text'</code> : Pour afficher le texte <code>text</code> sur le terminal</li>
+<li><code>echo -e 'text'</code> : Pour interpreter les caratere speciaux telques <code>\t</code> <code>\n</code> etc.</li>
+<li><code>echo $(( operation ))</code> : Pour afficher une operation mathematique.</li>
+<li><code>read variables</code> : Pour entrer la valeur au clavier et stocker dans <code>variables</code></li>
+<li><code>read -p 'texte' variables </code> : Pour afficher un message <code>texte</code> puis en suite lire la valeur entree au clavier et stocker dans <code>variables</code>. Ici on peut avoir plusieurs variables.</li>
+</ul>
+<p><strong>Exemple :</strong></p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>$ <span class="token builtin class-name">echo</span> <span class="token string">"Hello World"</span>
+
+$ <span class="token builtin class-name">echo</span> <span class="token parameter variable">-e</span> <span class="token string">'Ceci est un ligne\nVoici la seconde avec une \t tabulation'</span>
+
+$ <span class="token builtin class-name">echo</span> <span class="token string">'Entrer votre age :'</span>
+
+$ <span class="token builtin class-name">read</span> age 
+
+$ <span class="token builtin class-name">read</span> <span class="token parameter variable">-p</span> <span class="token string">'entrer votre annee de naissance : '</span> annee
+
+$ <span class="token builtin class-name">echo</span> <span class="token string">"votre age en 2024 est : <span class="token variable"><span class="token variable">$((</span><span class="token number">2024</span> <span class="token operator">-</span> annee<span class="token variable">))</span></span>"</span>
+</code></pre><p><strong>NB :</strong> lorsqu'on utilise les simples quotes <code>' '</code> le texte a l'interieur n'est pas interpreter par echo. Mais lorsque l'on utilise les doubles quotes <code>" "</code> le texte est interprete par echo.</p>
+<h2 id="011-operation-matematiques">0.11 Operation matematiques </h2>
+<p>Dans bash nous avons toutes les operations arithmetiques et logique utilise dans les langages de programmation. <br>
+Consulter le <a href="https://calendar.google.com/calendar/u/0/r/eventedit?vcon=meet&amp;dates=now&amp;hl=fr&amp;pli=1">lien</a> pour plus de details.</p>
+<h2 id="012-expressions-régulières">0.12 Expressions régulières </h2>
+<p>Les expressions régulières aident à définir des mots de recherche précis, comme extraire uniquement des caractères alphabétiques ou des nombres, correspondance avec début de ligne, fin de ligne, séquences de caractères, etc. Les références suivantes sont pour <strong>ERE (Extended Regular Expressions)</strong>.</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>$ <span class="token function">grep</span> <span class="token parameter variable">-E</span> <span class="token string">'&lt;Regex&gt;'</span> <span class="token operator">&lt;</span>file<span class="token operator">&gt;</span> <span class="token comment">#Pour realiser une recherche avec expression reguliere </span>
+</code></pre><h3 id="0121-ancres">0.12.1 Ancres </h3>
+<ul>
+<li><code>^</code> correspondance avec le début de ligne ;</li>
+<li><code>$</code> correspondance avec la fin de ligne ;</li>
+<li><code>\&lt;</code> correspondance avec le début de mot ;</li>
+<li><code>\&gt;</code> correspondance avec la fin de mot ;</li>
+<li><code>\b</code> correspondance avec la limite de mot ;</li>
+<li><code>\B</code> inverse de <code>\b</code>.</li>
+</ul>
+<h3 id="0122-quantificateurs-de-caractères">0.12.2 Quantificateurs de caractères </h3>
+<ul>
+<li><code>.</code> correspond à tout caractère simple ;</li>
+<li><code>*</code> correspond au caractère précédent 0 fois ou plus ;</li>
+<li><code>+</code> correspond au caractère précédent 1 fois ou plus ;</li>
+<li><code>?</code> correspond au caractère précédent 0 ou 1 fois ;</li>
+<li><code>{n}</code> correspond au caractère précédent exactement n fois ;</li>
+<li><code>{n,}</code> correspond au caractère précédent n fois ou plus ;</li>
+<li><code>{n,m}</code> correspond au caractère précédent de n à m fois (inclus n et m) ;</li>
+<li><code>{,m}</code> correspond au caractère précédent jusqu’à n fois ;</li>
+</ul>
+<h3 id="0123-classes-de-caractères-">0.12.3 Classes de caractères : </h3>
+<ul>
+<li><code>[aeiou]</code> correspond à n’importe lequel de ces caractères ;</li>
+<li><code>[^aeiou]</code> ne correspond à aucun de ces caractères ;</li>
+<li><code>[a-z]</code> correspond à n’importe quel caractère de l’alphabet ;</li>
+<li><code>[0-9]</code> correspond à n’importe quel caractère numérique ;</li>
+<li><code>\w</code> correspond à tout caractère, alphanumérique, et au caractère underscore, raccourci pour <code>[a-zA-Z0-9_]</code> ;</li>
+<li><code>\W</code> opposé à \w , raccourci pour <code>[^a-zA-Z0-9_]</code> ;</li>
+<li><code>\s</code> correspond aux caractères invisibles: tabulation, retour chariot, tabulation verticale, espace ;</li>
+<li><code>\S</code> inverse de \s.</li>
+</ul>
+<h3 id="0124-groupes-de-modèles-">0.12.4 Groupes de modèles : </h3>
+<ul>
+<li><code>|</code> correspond à l’un des modèles donnés ;</li>
+<li><code>()</code> les motifs entre <code>()</code> sont regroupés et traités comme un seul motif, utile en conjonction avec <code>|</code> ;</li>
+<li><code>\1</code> référence arrière au premier motif groupé dans () ;</li>
+<li><code>\2</code> référence arrière au second motif groupé dans (), etc.</li>
+</ul>
+<p><strong>Exemples :</strong></p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>$ <span class="token function">grep</span> <span class="token parameter variable">-i</span> <span class="token string">'[a-z]'</span> report.log <span class="token comment">#imprime toutes les lignes ayant au moins un caractère alphabétique </span>
+$ <span class="token function">grep</span> <span class="token string">'[0-9]'</span> report.log <span class="token comment">#imprime toutes les lignes ayant au moins un caractère numérique </span>
+$ <span class="token function">grep</span> <span class="token string">'area\|power'</span> report.log <span class="token comment">#correspond aux lignes contenant « area » ou « power » </span>
+$ <span class="token function">grep</span> <span class="token parameter variable">-E</span> <span class="token string">'area|power'</span> report.log <span class="token comment">#correspond aux lignes contenant « area » ou « power » </span>
+$ <span class="token function">grep</span> <span class="token parameter variable">-E</span> <span class="token string">'hand(y|ful)'</span> short_story.txt <span class="token comment">#correspond à « handy » ou « handful « </span>
+$ <span class="token function">grep</span> <span class="token parameter variable">-E</span> <span class="token string">'(Th)?is'</span> short_story.txt <span class="token comment">#correspond à « This » ou « is »</span>
+$ <span class="token function">grep</span> <span class="token parameter variable">-iE</span> <span class="token string">'([a-z])\1'</span> short_story.txt <span class="token comment">#correspond aux mêmes caractères alphabétiques apparaissant de façon consécutive comme « aa », « FF », « Ee », etc.</span>
+$ <span class="token function">ifconfig</span> <span class="token operator">|</span> <span class="token function">grep</span> <span class="token parameter variable">-E</span> <span class="token string">'[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}'</span> <span class="token comment">#pour afficher toutes les adresses IP de ifconfig.</span>
+</code></pre><h1 id="1-structures-conditionnelles">1. Structures conditionnelles </h1>
+<p><strong>Note :</strong> Les simples <code>;</code> dans la suite correspond a un retour a la ligne. Tandis que les doubles <code>;;</code> sont requis.</p>
+<h2 id="11-if-condition-fi">1.1 IF (condition) FI </h2>
+<ul>
+<li>En ligne de commande :</li>
+</ul>
+<p>Une premiere syntaxe est :</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>$ <span class="token keyword keyword-if">if</span> <span class="token variable"><span class="token punctuation">((</span> <span class="token operator">&lt;</span>condition<span class="token operator">&gt;</span> <span class="token punctuation">))</span></span><span class="token punctuation">;</span> <span class="token keyword keyword-then">then</span> instructions <span class="token punctuation">;</span> <span class="token keyword keyword-fi">fi</span>
+</code></pre><p><strong>exemple :</strong></p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>$ <span class="token keyword keyword-if">if</span> <span class="token variable"><span class="token punctuation">((</span> <span class="token number">10</span><span class="token operator">&gt;</span><span class="token number">5</span> <span class="token punctuation">))</span></span><span class="token punctuation">;</span> <span class="token keyword keyword-then">then</span> <span class="token builtin class-name">echo</span> <span class="token variable"><span class="token variable">$((</span> <span class="token number">10</span><span class="token operator">*</span><span class="token number">5</span><span class="token variable">))</span></span><span class="token punctuation">;</span> <span class="token keyword keyword-fi">fi</span>
+</code></pre><p>Une deuxieme syntaxe est :</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>$ <span class="token keyword keyword-if">if</span> <span class="token punctuation">[</span> <span class="token operator">&lt;</span>condition<span class="token operator">&gt;</span> <span class="token punctuation">]</span> <span class="token punctuation">;</span> <span class="token keyword keyword-then">then</span>  instruction  <span class="token punctuation">;</span> <span class="token keyword keyword-fi">fi</span>
+</code></pre><p><strong>exemple :</strong></p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>$ <span class="token keyword keyword-if">if</span> <span class="token punctuation">[</span> <span class="token number">10</span> <span class="token parameter variable">-gt</span> <span class="token number">5</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword keyword-then">then</span>  <span class="token builtin class-name">echo</span> <span class="token variable"><span class="token variable">$((</span> <span class="token number">10</span><span class="token operator">*</span><span class="token number">5</span> <span class="token variable">))</span></span> <span class="token punctuation">;</span> <span class="token keyword keyword-fi">fi</span>
+</code></pre><ul>
+<li>Dans un sciprt :</li>
+</ul>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token keyword keyword-if">if</span> <span class="token variable"><span class="token punctuation">((</span> condition <span class="token punctuation">))</span></span>
+<span class="token keyword keyword-then">then</span>
+    Instructions
+<span class="token keyword keyword-fi">fi</span>
+</code></pre><br>
+<p><strong>Exemple :</strong></p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token keyword keyword-if">if</span> <span class="token punctuation">[</span> <span class="token number">10</span> <span class="token parameter variable">-gt</span> <span class="token number">5</span> <span class="token punctuation">]</span>
+<span class="token keyword keyword-then">then</span> 
+    <span class="token builtin class-name">echo</span> <span class="token variable"><span class="token variable">$((</span> <span class="token number">10</span><span class="token operator">*</span><span class="token number">5</span> <span class="token variable">))</span></span>  
+<span class="token keyword keyword-fi">fi</span>
+</code></pre><h2 id="12-if-condition-else-fi">1.2 IF (condition) ELSE FI </h2>
+<ul>
+<li>En ligne de commande :</li>
+</ul>
+<p>Une premiere syntaxe est :</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>$ <span class="token keyword keyword-if">if</span> <span class="token variable"><span class="token punctuation">((</span> condition <span class="token punctuation">))</span></span><span class="token punctuation">;</span> <span class="token keyword keyword-then">then</span> instructions <span class="token punctuation">;</span> <span class="token keyword keyword-else">else</span> instructions<span class="token punctuation">;</span> <span class="token keyword keyword-fi">fi</span>
+</code></pre><p><strong>exemple :</strong></p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>$ <span class="token keyword keyword-if">if</span> <span class="token variable"><span class="token punctuation">((</span> <span class="token number">10</span><span class="token operator">&gt;</span><span class="token number">5</span> <span class="token punctuation">))</span></span><span class="token punctuation">;</span> <span class="token keyword keyword-then">then</span> <span class="token builtin class-name">echo</span> <span class="token variable"><span class="token variable">$((</span> <span class="token number">10</span><span class="token operator">*</span><span class="token number">5</span><span class="token variable">))</span></span><span class="token punctuation">;</span> <span class="token keyword keyword-else">else</span> <span class="token builtin class-name">echo</span> <span class="token variable"><span class="token variable">$((</span> <span class="token number">10</span><span class="token operator">/</span><span class="token number">5</span><span class="token variable">))</span></span> <span class="token punctuation">;</span> <span class="token keyword keyword-fi">fi</span>
+</code></pre><p>Une deuxieme syntaxe est :</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>$ <span class="token keyword keyword-if">if</span> <span class="token punctuation">[</span> <span class="token operator">&lt;</span>condition<span class="token operator">&gt;</span> <span class="token punctuation">]</span> <span class="token punctuation">;</span> <span class="token keyword keyword-then">then</span>  instruction  <span class="token punctuation">;</span> <span class="token keyword keyword-else">else</span> instruction<span class="token punctuation">;</span> <span class="token keyword keyword-fi">fi</span>
+</code></pre><p><strong>exemple :</strong></p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>$ <span class="token keyword keyword-if">if</span> <span class="token punctuation">[</span> <span class="token number">10</span> <span class="token parameter variable">-gt</span> <span class="token number">5</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword keyword-then">then</span>  <span class="token builtin class-name">echo</span> <span class="token variable"><span class="token variable">$((</span> <span class="token number">10</span><span class="token operator">*</span><span class="token number">5</span> <span class="token variable">))</span></span><span class="token punctuation">;</span> <span class="token keyword keyword-else">else</span> <span class="token builtin class-name">echo</span> <span class="token variable"><span class="token variable">$((</span><span class="token number">10</span><span class="token operator">/</span><span class="token number">5</span><span class="token variable">))</span></span> <span class="token punctuation">;</span> <span class="token keyword keyword-fi">fi</span>
+</code></pre><ul>
+<li>Dans un sciprt :</li>
+</ul>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token keyword keyword-if">if</span> <span class="token variable"><span class="token punctuation">((</span> <span class="token operator">&lt;</span>condition<span class="token operator">&gt;</span> <span class="token punctuation">))</span></span>
+<span class="token keyword keyword-then">then</span>
+    Instructions
+<span class="token keyword keyword-else">else</span>
+    Instructions
+<span class="token keyword keyword-fi">fi</span>
+</code></pre><br>
+<p><strong>Exemple :</strong></p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token keyword keyword-if">if</span> <span class="token punctuation">[</span> <span class="token number">10</span> <span class="token parameter variable">-gt</span> <span class="token number">5</span> <span class="token punctuation">]</span>
+<span class="token keyword keyword-then">then</span>  
+    <span class="token builtin class-name">echo</span> <span class="token variable"><span class="token variable">$((</span> <span class="token number">10</span><span class="token operator">*</span><span class="token number">5</span> <span class="token variable">))</span></span>    
+<span class="token keyword keyword-else">else</span> 
+    <span class="token builtin class-name">echo</span> <span class="token variable"><span class="token variable">$((</span><span class="token number">10</span><span class="token operator">/</span><span class="token number">5</span><span class="token variable">))</span></span>
+<span class="token keyword keyword-fi">fi</span>
+</code></pre><h2 id="13-if-condition-elif-condition-else-fi">1.3 IF (condition) ELIF (condition) ELSE FI </h2>
+<ul>
+<li>En ligne de commande :</li>
+</ul>
+<p>Une premiere syntaxe est :</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>$ <span class="token keyword keyword-if">if</span> <span class="token variable"><span class="token punctuation">((</span> <span class="token operator">&lt;</span>condition<span class="token operator">&gt;</span> <span class="token punctuation">))</span></span><span class="token punctuation">;</span> <span class="token keyword keyword-then">then</span> instructions <span class="token punctuation">;</span> <span class="token keyword keyword-elif">elif</span> <span class="token variable"><span class="token punctuation">((</span> condition <span class="token punctuation">))</span></span><span class="token punctuation">;</span> <span class="token keyword keyword-then">then</span> instruction<span class="token punctuation">;</span> <span class="token keyword keyword-else">else</span> instructions<span class="token punctuation">;</span> <span class="token keyword keyword-fi">fi</span>
+</code></pre><p><strong>exemple :</strong></p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>$ <span class="token keyword keyword-if">if</span> <span class="token variable"><span class="token punctuation">((</span> <span class="token number">10</span><span class="token operator">&gt;</span><span class="token number">5</span> <span class="token punctuation">))</span></span><span class="token punctuation">;</span> <span class="token keyword keyword-then">then</span> <span class="token builtin class-name">echo</span> <span class="token variable"><span class="token variable">$((</span> <span class="token number">10</span><span class="token operator">*</span><span class="token number">5</span> <span class="token variable">))</span></span><span class="token punctuation">;</span> <span class="token keyword keyword-elif">elif</span> <span class="token variable"><span class="token punctuation">((</span> <span class="token number">10</span><span class="token operator">==</span><span class="token number">5</span> <span class="token punctuation">))</span></span><span class="token punctuation">;</span> <span class="token keyword keyword-then">then</span> <span class="token builtin class-name">echo</span> <span class="token variable"><span class="token variable">$((</span> <span class="token number">5</span> <span class="token variable">))</span></span><span class="token punctuation">;</span> <span class="token keyword keyword-else">else</span> <span class="token builtin class-name">echo</span> <span class="token variable"><span class="token variable">$((</span> <span class="token number">10</span><span class="token operator">/</span><span class="token number">5</span><span class="token variable">))</span></span><span class="token punctuation">;</span> <span class="token keyword keyword-fi">fi</span>
+</code></pre><p>Une deuxieme syntaxe est :</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>$ <span class="token keyword keyword-if">if</span> <span class="token punctuation">[</span> <span class="token operator">&lt;</span>condition<span class="token operator"><span class="token file-descriptor important">1</span>&gt;</span> <span class="token punctuation">]</span> <span class="token punctuation">;</span> <span class="token keyword keyword-then">then</span>  instruction  <span class="token punctuation">;</span> <span class="token keyword keyword-elif">elif</span> <span class="token punctuation">[</span> <span class="token operator">&lt;</span>condition<span class="token operator"><span class="token file-descriptor important">2</span>&gt;</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword keyword-then">then</span> instruction<span class="token punctuation">;</span> <span class="token keyword keyword-else">else</span> instruction<span class="token punctuation">;</span> <span class="token keyword keyword-fi">fi</span>
+</code></pre><p><strong>exemple :</strong></p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>$ <span class="token keyword keyword-if">if</span> <span class="token punctuation">[</span> <span class="token number">1</span><span class="token operator"><span class="token file-descriptor important">0</span>&gt;</span><span class="token number">5</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword keyword-then">then</span> <span class="token builtin class-name">echo</span> <span class="token variable"><span class="token variable">$((</span> <span class="token number">10</span><span class="token operator">*</span><span class="token number">5</span> <span class="token variable">))</span></span><span class="token punctuation">;</span> <span class="token keyword keyword-elif">elif</span> <span class="token punctuation">[</span> <span class="token assign-left variable">10</span><span class="token operator">==</span><span class="token number">5</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword keyword-then">then</span> <span class="token builtin class-name">echo</span> $<span class="token punctuation">[</span> <span class="token number">5</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword keyword-else">else</span> <span class="token builtin class-name">echo</span> <span class="token variable"><span class="token variable">$((</span> <span class="token number">10</span><span class="token operator">/</span><span class="token number">5</span><span class="token variable">))</span></span><span class="token punctuation">;</span> <span class="token keyword keyword-fi">fi</span>
+</code></pre><ul>
+<li>Dans un sciprt :</li>
+</ul>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token keyword keyword-if">if</span> <span class="token variable"><span class="token punctuation">((</span> condition1 <span class="token punctuation">))</span></span>
+<span class="token keyword keyword-then">then</span>
+    Instructions
+<span class="token keyword keyword-elif">elif</span> <span class="token variable"><span class="token punctuation">((</span> condition2 <span class="token punctuation">))</span></span>
+    Instructions
+<span class="token keyword keyword-else">else</span>
+    Instructions
+<span class="token keyword keyword-fi">fi</span>
+</code></pre><br>
+<p><strong>Exemple :</strong></p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token keyword keyword-if">if</span> <span class="token punctuation">[</span> <span class="token number">1</span><span class="token operator"><span class="token file-descriptor important">0</span>&gt;</span><span class="token number">5</span> <span class="token punctuation">]</span> 
+<span class="token keyword keyword-then">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token variable"><span class="token variable">$((</span> <span class="token number">10</span><span class="token operator">*</span><span class="token number">5</span> <span class="token variable">))</span></span> 
+<span class="token keyword keyword-elif">elif</span> <span class="token punctuation">[</span> <span class="token assign-left variable">10</span><span class="token operator">==</span><span class="token number">5</span> <span class="token punctuation">]</span>
+    <span class="token keyword keyword-then">then</span> <span class="token builtin class-name">echo</span> $<span class="token punctuation">[</span> <span class="token number">5</span> <span class="token punctuation">]</span> 
+<span class="token keyword keyword-else">else</span> 
+    <span class="token builtin class-name">echo</span> <span class="token variable"><span class="token variable">$((</span> <span class="token number">10</span><span class="token operator">/</span><span class="token number">5</span><span class="token variable">))</span></span> 
+<span class="token keyword keyword-fi">fi</span>
+</code></pre><h2 id="14-les-case">1.4 Les CASE </h2>
+<ul>
+<li>En ligne de commande :</li>
+</ul>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>$ <span class="token keyword keyword-case">case</span> <span class="token variable">$var</span> <span class="token keyword keyword-in">in</span> val1<span class="token punctuation">)</span> instruction1 <span class="token punctuation">;</span> <span class="token punctuation">;</span><span class="token punctuation">;</span> val2<span class="token punctuation">)</span> instruction2 <span class="token punctuation">;</span> <span class="token punctuation">;</span><span class="token punctuation">;</span> *<span class="token punctuation">)</span> <span class="token operator">&lt;</span>instruction pour valeur par defaut<span class="token operator">&gt;</span> <span class="token punctuation">;</span> <span class="token punctuation">;</span><span class="token punctuation">;</span> <span class="token keyword keyword-esac">esac</span>
+</code></pre><p><strong>exemple :</strong></p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>$ <span class="token builtin class-name">declare</span> <span class="token parameter variable">-i</span> <span class="token assign-left variable">a</span><span class="token operator">=</span><span class="token number">8</span>
+$ <span class="token keyword keyword-case">case</span> <span class="token variable">$a</span> <span class="token keyword keyword-in">in</span>  <span class="token number">10</span><span class="token punctuation">)</span> <span class="token builtin class-name">echo</span> <span class="token string">"10"</span><span class="token punctuation">;</span> <span class="token punctuation">;</span><span class="token punctuation">;</span> <span class="token number">11</span><span class="token punctuation">)</span> <span class="token builtin class-name">echo</span> <span class="token string">"11"</span><span class="token punctuation">;</span> <span class="token punctuation">;</span><span class="token punctuation">;</span> <span class="token number">12</span><span class="token punctuation">)</span> <span class="token builtin class-name">echo</span> <span class="token string">"12"</span><span class="token punctuation">;</span> <span class="token punctuation">;</span><span class="token punctuation">;</span> *<span class="token punctuation">)</span> <span class="token builtin class-name">echo</span> <span class="token string">"default"</span><span class="token punctuation">;</span> <span class="token punctuation">;</span><span class="token punctuation">;</span> <span class="token keyword keyword-esac">esac</span>
+</code></pre><ul>
+<li>Dans un script</li>
+</ul>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token keyword keyword-case">case</span> var <span class="token keyword keyword-in">in</span>
+    val1<span class="token punctuation">)</span>
+        instructions1
+        <span class="token punctuation">;</span><span class="token punctuation">;</span>
+    val2<span class="token punctuation">)</span>
+        instructions2
+        <span class="token punctuation">;</span><span class="token punctuation">;</span>
+    <span class="token punctuation">..</span>.
+    valN<span class="token punctuation">)</span>
+        instructionsN
+        <span class="token punctuation">;</span><span class="token punctuation">;</span>
+    *<span class="token punctuation">)</span>
+        instructions par defaut
+        <span class="token punctuation">;</span><span class="token punctuation">;</span>
+<span class="token keyword keyword-esac">esac</span>
+</code></pre><br>
+<p><strong>Exemple :</strong></p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token keyword keyword-case">case</span> <span class="token variable">$a</span> <span class="token keyword keyword-in">in</span>  
+    <span class="token number">10</span><span class="token punctuation">)</span> 
+        <span class="token builtin class-name">echo</span> <span class="token string">"10"</span> 
+        <span class="token punctuation">;</span><span class="token punctuation">;</span> 
+    <span class="token number">11</span><span class="token punctuation">)</span> 
+        <span class="token builtin class-name">echo</span> <span class="token string">"11"</span>
+        <span class="token punctuation">;</span><span class="token punctuation">;</span> 
+    <span class="token number">12</span><span class="token punctuation">)</span> 
+        <span class="token builtin class-name">echo</span> <span class="token string">"12"</span>
+        <span class="token punctuation">;</span><span class="token punctuation">;</span> 
+    *<span class="token punctuation">)</span> 
+        <span class="token builtin class-name">echo</span> <span class="token string">"default"</span> 
+        <span class="token punctuation">;</span><span class="token punctuation">;</span> 
+<span class="token keyword keyword-esac">esac</span>
+</code></pre><h1 id="2-structures-interatives">2. Structures Interatives </h1>
+<h2 id="21-bouche-for">2.1 Bouche For </h2>
+<h2 id="22-boucle-while">2.2 Boucle While </h2>
+<h2 id="23-commande-seq">2.3 Commande seq </h2>
+<p>En inspectant le manuel de <code>seq</code> on notre trois points importants :</p>
+<ul>
+<li><code>seq N</code> : Retourne une liste d'element de <code>1</code> a <code>N</code> par pas de <code>1</code></li>
+<li><code>seq P D</code> : Retourne une liste d'element de <code>P</code> a <code>N</code> par pas de <code>1</code></li>
+<li><code>seq Debut Pas Fin</code> : Retourne une liste d'element de <code>Debut</code> a <code>Fin</code> par pas de <code>Pas</code></li>
+</ul>
+<p><strong>Exemple :</strong></p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>$ <span class="token function">seq</span> <span class="token number">10</span> <span class="token comment">#1 2 3 4 5 6 7 8 9 10</span>
+
+$ <span class="token function">seq</span> <span class="token number">5</span> <span class="token number">10</span> <span class="token comment">#5 6 7 8 9 10</span>
+
+$ <span class="token function">seq</span> <span class="token number">1</span> <span class="token number">2</span> <span class="token number">10</span> <span class="token comment">#1 3 5 7 9 </span>
+</code></pre><h2 id="24-manipulation-des-fichier-et-dossiers-dans-les-boucles">2.4 Manipulation des fichier et dossiers dans les boucles </h2>
+<br>
+<br>
+<hr>
+<p>Accedez au <a href="https://linux.developpez.com/ligne--de-commande/#L3-4">lien</a> pour une formation complete et  retrouver tous les sujets qui n'ont pas ete aborde ici.</p>
+
+      </div>
+      
+      
+    </body>
+    
+    
+    
+    
+    
+  </html>

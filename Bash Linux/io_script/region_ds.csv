@@ -1,0 +1,190 @@
+code_region,nom_region,abr_region,code_district,nom_district
+1,Adamaoua,ADA,1,Bankim
+1,Adamaoua,ADA,2,Banyo
+1,Adamaoua,ADA,3,Djohong
+1,Adamaoua,ADA,4,Meiganga
+1,Adamaoua,ADA,5,Ngaoundal
+1,Adamaoua,ADA,6,Ngaoundere rural
+1,Adamaoua,ADA,7,Ngaoundere urbain
+1,Adamaoua,ADA,8,Tibati
+1,Adamaoua,ADA,9,Tignere
+2,Centre,CEN,10,Akonolinga
+2,Centre,CEN,11,Awae
+2,Centre,CEN,12,Ayos
+2,Centre,CEN,13,Bafia
+2,Centre,CEN,14,Biyem-assi
+2,Centre,CEN,15,Cite verte
+2,Centre,CEN,16,Djoungolo
+2,Centre,CEN,17,Ebebda
+2,Centre,CEN,18,Efoulan
+2,Centre,CEN,19,Elig-mfomo
+2,Centre,CEN,20,Eseka
+2,Centre,CEN,21,Esse
+2,Centre,CEN,22,Evodoula
+2,Centre,CEN,23,Mbalmayo
+2,Centre,CEN,24,Mbandjock
+2,Centre,CEN,25,Mbankomo
+2,Centre,CEN,26,Mfou
+2,Centre,CEN,27,Monatele
+2,Centre,CEN,28,Nanga eboko
+2,Centre,CEN,29,Ndikinimeki
+2,Centre,CEN,30,Ngog mapubi
+2,Centre,CEN,31,Ngoumou
+2,Centre,CEN,32,Nkolbisson
+2,Centre,CEN,33,Nkolndongo
+2,Centre,CEN,34,Ntui
+2,Centre,CEN,35,Obala
+2,Centre,CEN,36,Okola
+2,Centre,CEN,37,Saa
+2,Centre,CEN,38,Soa
+2,Centre,CEN,39,Yoko
+3,Est,EST,40,Abong Mbang
+3,Est,EST,41,Batouri
+3,Est,EST,42,Bertoua
+3,Est,EST,43,Betare Oya
+3,Est,EST,44,Doume
+3,Est,EST,45,Garoua Boulai
+3,Est,EST,46,Kette
+3,Est,EST,47,Lomie
+3,Est,EST,48,Mbang
+3,Est,EST,49,Messamena
+3,Est,EST,50,Moloundou
+3,Est,EST,51,Ndelele
+3,Est,EST,52,Nguelemendouka
+3,Est,EST,53,Yokadouma
+4,Extreme Nord,EXT,54,Bogo
+4,Extreme Nord,EXT,55,Bourha
+4,Extreme Nord,EXT,56,Gazawa
+4,Extreme Nord,EXT,57,Goulfey
+4,Extreme Nord,EXT,58,Guere
+4,Extreme Nord,EXT,59,Guidiguis
+4,Extreme Nord,EXT,60,Hina
+4,Extreme Nord,EXT,61,Kaele
+4,Extreme Nord,EXT,62,Kar hay
+4,Extreme Nord,EXT,63,Kolofata
+4,Extreme Nord,EXT,64,Kousseri
+4,Extreme Nord,EXT,65,Koza
+4,Extreme Nord,EXT,66,Mada
+4,Extreme Nord,EXT,67,Maga
+4,Extreme Nord,EXT,68,Makary
+4,Extreme Nord,EXT,69,Maroua 1
+4,Extreme Nord,EXT,70,Maroua 2
+4,Extreme Nord,EXT,71,Maroua 3
+4,Extreme Nord,EXT,72,Meri
+4,Extreme Nord,EXT,73,Mindif
+4,Extreme Nord,EXT,74,Mogode
+4,Extreme Nord,EXT,75,Mokolo
+4,Extreme Nord,EXT,76,Mora
+4,Extreme Nord,EXT,77,Moulvoudaye
+4,Extreme Nord,EXT,78,Moutourwa
+4,Extreme Nord,EXT,79,Pette
+4,Extreme Nord,EXT,80,Roua
+4,Extreme Nord,EXT,81,Tokombere
+4,Extreme Nord,EXT,82,Vele
+4,Extreme Nord,EXT,83,Yagoua
+5,Littoral,LIT,84,Abo
+5,Littoral,LIT,85,Bangue
+5,Littoral,LIT,86,Boko
+5,Littoral,LIT,87,Bonassama
+5,Littoral,LIT,88,Cite des palmiers
+5,Littoral,LIT,89,Deido
+5,Littoral,LIT,90,Dibombari
+5,Littoral,LIT,91,Edea
+5,Littoral,LIT,92,Japoma
+5,Littoral,LIT,93,Logbaba
+5,Littoral,LIT,94,Loum
+5,Littoral,LIT,95,Manjo
+5,Littoral,LIT,96,Manoka
+5,Littoral,LIT,97,Mbanga
+5,Littoral,LIT,98,Melong
+5,Littoral,LIT,99,Ndom
+5,Littoral,LIT,100,New-bell
+5,Littoral,LIT,101,Ngambe
+5,Littoral,LIT,102,Njombe penja
+5,Littoral,LIT,103,Nkondjock
+5,Littoral,LIT,104,Nkongsamba
+5,Littoral,LIT,105,Nylon
+5,Littoral,LIT,106,Pouma
+5,Littoral,LIT,107,Yabassi
+6,Nord,NOR,108,Bibemi
+6,Nord,NOR,109,Figuil
+6,Nord,NOR,110,Garoua i
+6,Nord,NOR,111,Garoua ii
+6,Nord,NOR,112,Gaschiga
+6,Nord,NOR,113,Golombe
+6,Nord,NOR,114,Guider
+6,Nord,NOR,115,Lagdo
+6,Nord,NOR,116,Mayo oulo
+6,Nord,NOR,117,Ngong
+6,Nord,NOR,118,Pitoa
+6,Nord,NOR,119,Poli
+6,Nord,NOR,120,Rey bouba
+6,Nord,NOR,121,Tchollire
+6,Nord,NOR,122,Touboro
+7,Nord-Ouest,NOW,123,Ako
+7,Nord-Ouest,NOW,124,Bafut
+7,Nord-Ouest,NOW,125,Bali
+7,Nord-Ouest,NOW,126,Bamenda
+7,Nord-Ouest,NOW,127,Batibo
+7,Nord-Ouest,NOW,128,Benakuma
+7,Nord-Ouest,NOW,129,Fundong
+7,Nord-Ouest,NOW,130,Kumbo east
+7,Nord-Ouest,NOW,131,Kumbo west
+7,Nord-Ouest,NOW,132,Mbengwi
+7,Nord-Ouest,NOW,133,Ndop
+7,Nord-Ouest,NOW,134,Ndu
+7,Nord-Ouest,NOW,135,Njikwa
+7,Nord-Ouest,NOW,136,Nkambe
+7,Nord-Ouest,NOW,137,Nwa
+7,Nord-Ouest,NOW,138,Oku
+7,Nord-Ouest,NOW,139,Santa
+7,Nord-Ouest,NOW,140,Tubah
+7,Nord-Ouest,NOW,141,Wum
+8,Ouest,OUE,142,Bafang
+8,Ouest,OUE,143,Baham
+8,Ouest,OUE,144,Bamendjou
+8,Ouest,OUE,145,Bandja
+8,Ouest,OUE,146,Bandjoun
+8,Ouest,OUE,147,Bangangte
+8,Ouest,OUE,148,Bangourain
+8,Ouest,OUE,149,Batcham
+8,Ouest,OUE,150,Dschang
+8,Ouest,OUE,151,Foumban
+8,Ouest,OUE,152,Foumbot
+8,Ouest,OUE,153,Galim
+8,Ouest,OUE,154,Kekem
+8,Ouest,OUE,155,Kouoptamo
+8,Ouest,OUE,156,Malantouen
+8,Ouest,OUE,157,Massangam
+8,Ouest,OUE,158,Mbouda
+8,Ouest,OUE,159,Mifi
+8,Ouest,OUE,160,Penka Michel
+8,Ouest,OUE,161,Santchou
+9,Sud-Ouest,SUW,162,Akwaya
+9,Sud-Ouest,SUW,163,Bakassi
+9,Sud-Ouest,SUW,164,Bangem
+9,Sud-Ouest,SUW,165,Buea
+9,Sud-Ouest,SUW,166,Ekondo titi
+9,Sud-Ouest,SUW,167,Eyumojock
+9,Sud-Ouest,SUW,168,Fontem
+9,Sud-Ouest,SUW,169,Konye
+9,Sud-Ouest,SUW,170,Kumba
+9,Sud-Ouest,SUW,171,Limbe
+9,Sud-Ouest,SUW,172,Mamfe
+9,Sud-Ouest,SUW,173,Mbonge
+9,Sud-Ouest,SUW,174,Mundemba
+9,Sud-Ouest,SUW,175,Muyuka
+9,Sud-Ouest,SUW,176,Nguti
+9,Sud-Ouest,SUW,177,Tiko
+9,Sud-Ouest,SUW,178,Tombel
+9,Sud-Ouest,SUW,179,Wabane
+10,Sud,SUD,180,Ambam
+10,Sud,SUD,181,Djoum
+10,Sud,SUD,182,Ebolowa
+10,Sud,SUD,183,Kribi
+10,Sud,SUD,184,Lolodorf
+10,Sud,SUD,185,Meyomessala
+10,Sud,SUD,186,Mvangan
+10,Sud,SUD,187,Olamze
+10,Sud,SUD,188,Sangmelima
+10,Sud,SUD,189,Zoetele
