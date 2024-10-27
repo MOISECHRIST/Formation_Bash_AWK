@@ -90,6 +90,19 @@ cat scrapping_data.csv | awk -F "," 'BEGIN{n=0} {if (NF > 7) n++} END{print n} '
 -   ! : pour inverser le pattern
 -   length() : Pour afficher le nombre de caractères
 
+La syntaxe est la suivante :
+
+```bash
+#Executer une liste d'instructions sur des lignes qui contiennent un pattern
+awk '/<pattern cherché>/ {<Liste instructions}'
+
+#Executer une liste d'instructions sur des lignes qui ne contiennent pas un pattern
+awk '!/<pattern cherché>/ {<Liste instructions}'
+
+#Calculer la longueur d'une chaine
+length(<chaine>) 
+```
+
 Exemple :
 
 ```bash
@@ -97,6 +110,7 @@ cat scrapping_data.csv| awk -F "," '
 BEGIN {print "\nListe des lignes ne contenant pas le mot 'saga'"};
 !/saga/ {print NR" : "length($0)}'
 ```
+**NB :** La recherche peut être faites sur des champs en particulier en spécifiant la champs de la manière suivante `$<champ_id> ~ /<pattern>/`. 
 
 ## 4- Fonction gsub()
 
@@ -262,6 +276,42 @@ Exemple :
 
 ```bash
 awk 'BEGIN{split("MEKA aime programmer en AWK", res, " "); for(idx in res) print res[idx]}'
+```
+Noter que `split()` ne retourne pas les valeurs dans le même ordre. 
+
+## 11- La commande next dans AWK
+
+La commande `next` permet de passer la la ligne suivante. Il fonctionne de la manière suivante : `IF(condition) next ELSE instruction` et utilise les outils de recherche.\
+La syntaxe de `next` est la suivante :
+
+```bash
+awk '/<pattern>/ {next}{<liste instruction sinon>}
+```
+**NB :** Les principes de recherche ci dessus peuvent être utilisé ici.
+
+## 12- Utilisation des variables bash dans AWK 
+
+Pour utiliser les variables shell dans AWK on utilise le flag `-v` pour affecter la valeur de la variable shell dans le script AWK. 
+
+Exemple :
+
+```bash
+jour=$(date +%d/%m/%Y)
+heure=$(date +%Hh%M)
+awk -v var_awk1="$jour" -v var_awk2="$heure" 'BEGIN{print "Aujourdhui cest "var_awk1" et il est "var_awk2}'
+```
+
+# 13- Bonus : Suppression des doublons avec AWK
+
+Dans cette section nous allons creer deux scripts :
+- Le premier permettra de verifier s'il y a des doublons dans un fichiers (Ligne dupliquées)
+```bash
+cat data/crx.data.txt | awk -F "," 'BEGIN{print "count;line"}{tab[$0]+=1}END{for(i in tab){if(tab[i]>1) print tab[i]";"i}}'
+```
+
+- Le second permettra de supprimer ces doublons :
+```bash
+cat data/crx.data.txt | awk -F "," '{tab[$0]+=1}END{for(i in tab){print i}}' > data/clean.crx.data.txt 
 ```
 
 ------------------------------
