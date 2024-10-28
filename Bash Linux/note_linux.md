@@ -511,8 +511,8 @@ do
     fastp --detect_adapter_for_pe \
         --overrepresentation_analysis \
         --cut_right --thread 3 \
-        --html results/fastp//"$file"/"$file".html \
-        --json results/fastp//"$file"/"$file".json \
+        --html results/fastp/"$file"/"$file".html \
+        --json results/fastp/"$file"/"$file".json \
         -i data/good_size_file/"$file"_1.fastq.gz -I data/good_size_file/"$file"_2.fastq.gz \
         -o results/fastp/"$file"/"$file"_trimmed_1.fastq.gz -O results/fastp/"$file"/"$file"_trimmed_2.fastq.gz \
         2> results/fastp/"$file"/"$file".log
