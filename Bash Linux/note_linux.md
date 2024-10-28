@@ -48,7 +48,7 @@
 -   `rmdir` : Supprimer un dossier vide
 -   `rmdir -p <path>` : pour supprimer un dossier vide et tous ses paraents qui sont aussi vide
 
-## 0.4 Creer de fichiers et dossiers et traitement de texte
+## 0.4 Editer de fichiers et dossiers et traitement de texte
 
 -   `mkdir <dir>` : Pour creer le dossier `dir`
 -   `mkdir -p <a/b/c>` : Pour creer successivement `a`, `a/b` et `a/b/c` s'il n'existent pas sans generer d'erreurs
@@ -87,9 +87,21 @@ Ces symboles se lisent en groupe de 3 et correspondent a r (read), w (write) et 
 Lorsque l'on veut par exemple ajouter les drois au proprietaire on fait `chmod u+rwx <file>` cela ajoutera rwx aux droits du proprietaire sur le fichier.\
 Lorsque l'on veut par exemple retirer les drois d'execution au proprietaire on fait `chmod u-x <file>`.\
 On peut remplacer `u` dans la commande precedente par `g` pour les droits des groupes ou par `a` pour les drois de tout le monde.\
-Il existe une seconde facon d'ajouter/enlever les droits en utilisant des code binaires  consideron le code binaire a 3 bit suivant :\
-- 000=0 : `-rwx` - 001=1 : `+x` - 010=2 : `+w` - 011=3 : `+wr` - 100=4 : `+r` - 101=5 : `+rx` - 110=6 : `+rw` - 111=7 : `+rwx` Donc si on veut ajouter des droits on fera un code a 3 chiffer allant de 0 a 7\
-Par exemple `chmod 750 <file>` sera equivalent a `rwxr-x---` pour le fichier ou : - `7` correspond aux droits du proprietaire - `5` correspond aux droits du groupe - `0` correspond aux droits des autres
+Il existe une seconde facon d'ajouter/enlever les droits en utilisant des code binaires  consideron le code binaire a 3 bit suivant :
+- 000=0 : `-rwx` 
+- 001=1 : `+x` 
+- 010=2 : `+w` 
+- 011=3 : `+wr` 
+- 100=4 : `+r` 
+- 101=5 : `+rx` 
+- 110=6 : `+rw` 
+- 111=7 : `+rwx`
+
+Donc si on veut ajouter des droits on fera un code a 3 chiffer allant de 0 a 7\
+Par exemple `chmod 750 <file>` sera equivalent a `rwxr-x---` pour le fichier ou : 
+- `7` correspond aux droits du proprietaire 
+- `5` correspond aux droits du groupe 
+- `0` correspond aux droits des autres
 
 2.  `chgrp <group_name> <file|dir>` Pour changer le groupe d'un fichier ou d'un dossier
 3.  `chown <uaser_name> <file|dir>` Pour changer l'utilisateur d'un fichier ou un dossier
@@ -98,14 +110,17 @@ Par exemple `chmod 750 <file>` sera equivalent a `rwxr-x---` pour le fichier ou 
 
 La commande `[command] > [file]` enregistre le resultat d'une commande dans un fichier. Exemple `ll my_dir/ > my_dir_content.txt` qui va stocker le contenu de `my_dir` dans le fichier `my_dir_content.txt`.\
 L'inconveniant ici c'est qu'il fait juste un read du fichier et donc n'ajoute pas les resultats a un precedent enregistrement.\
-On utilise donc la commande `<command> >> <file>` pour ajouter du contenu. Par exemple `fastqc file.fq >> fastqc.log` - `[command] 1> [file]` : Pour rediriger tous les stdout dans un fichier\
+On utilise donc la commande `<command> >> <file>` pour ajouter du contenu. Par exemple `fastqc file.fq >> fastqc.log` - `[command] 1> [file]` : Pour rediriger tous les stdout dans un fichier
 - `[command] 2> [file]` : Pour rediriger tous les stderror dans un fichier
 
 ## 0.8 Combiner les commandes
 
 Pour combiner les commandes de sorte a utiliser le resultat de l'une comme entree de l'autre on utilise le pipe `|`\
 **Exemple :** `cat file.csv | cut -d, -f1 | sort | uniq` pour afficher de maniere unique les elements de la premiere colonne du fichier csv `file.csv` delimiteur virgule `,`. On voit ici trois nouvelle commande `cut`, `sort` et `uniq`.\
-En inspectant les manuels de ces commandes on constate que : - `cut` : permet de decouper le contenu d'un fichier ou de son entre suivant un delimiteur. Le delimiteur par defaut est la tabulation. Le parametre `-f` ici permet de specifier les colonnes prises en comptes (`cut file.csv -d, -f1,5` pour selectionner la premiere et la cinquieme colonne). - `sort` : Permet de trier les element d'une liste (`ls -lh | sort -hk 5` ou ici j'affiche sous forme de liste avec des valeurs numerique converti pour faciliter la lecture humaine avec `ls -lh` puis je trie les resultats precedent suivent les grandeur numerique humaine `-h` se trouvant dans la 5ieme colonne du precedent resultat `k 5` avec `sort -hk 5`) - `uniq` : Pour afficher les elements de maniere unique. Il possede les parametres tres utiles `-c` qui compte les sorties et `-i` pour ignorer la casse.
+En inspectant les manuels de ces commandes on constate que : 
+- `cut` : permet de decouper le contenu d'un fichier ou de son entre suivant un delimiteur. Le delimiteur par defaut est la tabulation. Le parametre `-f` ici permet de specifier les colonnes prises en comptes (`cut file.csv -d, -f1,5` pour selectionner la premiere et la cinquieme colonne). 
+- `sort` : Permet de trier les element d'une liste (`ls -lh | sort -hk 5` ou ici j'affiche sous forme de liste avec des valeurs numerique converti pour faciliter la lecture humaine avec `ls -lh` puis je trie les resultats precedent suivent les grandeur numerique humaine `-h` se trouvant dans la 5ieme colonne du precedent resultat `k 5` avec `sort -hk 5`) 
+- `uniq` : Pour afficher les elements de maniere unique. Il possede les parametres tres utiles `-c` qui compte les sorties et `-i` pour ignorer la casse.
 
 ## 0.9 Les jointure
 
@@ -119,7 +134,7 @@ La syntaxe est simple `join -t'<delimitor>' file1 -1 X1 file2 -2 X2` ici on veut
 join -t ',' region.csv -1 1 district_sante.csv -2 3 > region_ds.csv
 ```
 
-ici on veut joindre les donnees des regions avec ceux des districts de sante. La colonne de jointure entre region et district est `1` chez `region.csv` et `3` chez `district_sante.csv`\
+Ici on veut joindre les donnees des regions avec ceux des districts de sante. La colonne de jointure entre region et district est `1` chez `region.csv` et `3` chez `district_sante.csv`\
 Une commande basique de jointure est `join file1 file2` ici le delimiteur est l'espace et les colonnes de jointures sont `1` par tout. C'est equivalent a :
 
 ``` bash
@@ -438,13 +453,27 @@ esac
 
 # 2. Structures Interatives
 
-## 2.1 Bouche For
+## 2.1. Bouche For
 
+La syntaxe de la boucle `for` est la suivante 
+```bash
+for <variable> in <liste valeurs>
+do 
+ <liste instructions>
+done
+```
 
+Exemple :
 
-## 2.2 Boucle While
+```bash
+var=5
+for item in $(seq 1 10)
+do 
+ echo $((item*var))
+done
+```
 
-## 2.3 Commande seq
+## 2.2. Commande seq
 
 En inspectant le manuel de `seq` on notre trois points importants :
 
@@ -462,7 +491,7 @@ $ seq 5 10 #5 6 7 8 9 10
 $ seq 1 2 10 #1 3 5 7 9 
 ```
 
-## 2.4 Manipulation des fichier et dossiers dans les boucles
+## 2.3. Manipulation des fichier et dossiers dans les boucles
 
 Dans cette section nous allons vous présenter un exemple de script bash qui permet de réaliser le nettoyage des lectures avec fastp puis l'assemblage du génome avec spades et enfin l'identification des especes bacteriennes avec Kleborate\
 
@@ -529,4 +558,4 @@ kleborate -a results/contigs/*.fasta \
 
 ------------------------------------------------------------------------
 
-Accedez au [lien](https://linux.developpez.com/ligne--de-commande/#L3-4) pour une formation complete et retrouver tous les sujets qui n'ont pas ete aborde ici.
+Accedez au [lien](https://linux.developpez.com/ligne--de-commande/#L3-4) pour plus de details et retrouver tous les sujets qui n'ont pas ete aborde ici.
