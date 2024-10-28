@@ -107,7 +107,7 @@ Exemple :
 
 ```bash
 cat scrapping_data.csv| awk -F "," '
-BEGIN {print "\nListe des lignes ne contenant pas le mot 'saga'"};
+BEGIN {print "\nListe des lignes ne contenant pas le mot saga"};
 !/saga/ {print NR" : "length($0)}'
 ```
 **NB :** La recherche peut être faites sur des champs en particulier en spécifiant la champs de la manière suivante `$<champ_id> ~ /<pattern>/`. 
@@ -125,7 +125,7 @@ Exemple :
 
 ```bash
 $ cat scrapping_data.csv| awk -F "," '
-BEGIN {print "\nListe des lignes ne contenant pas le mot 'saga'"};
+BEGIN {print "\nSubstitution de Saga par Baba"};
 gsub("[S-s]+aga", "Baba", $1) {print NR" : "$1}'
 ```
 
