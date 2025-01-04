@@ -44,7 +44,7 @@ print "Hello World !\nThis is my first AWK script"
 }
 ```
 
-**NB :**Mais si on utilise ensemble les commandes bash et celle de AWK il faut spécifier que l'executable est bash :
+**NB :** Mais si on utilise ensemble les commandes bash et celle de AWK il faut spécifier que l'executable est bash :
 
 Exemple :
 
